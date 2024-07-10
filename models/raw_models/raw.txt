@@ -1,0 +1,201 @@
+CREATE TABLE customers (
+    customer_id VARCHAR(255) PRIMARY KEY,
+    name VARCHAR(255),
+    address VARCHAR(255),
+    phone VARCHAR(20),
+    email VARCHAR(255),
+    dob DATE,
+    join_date DATE
+);
+
+CREATE TABLE accounts (
+    account_id VARCHAR(255) PRIMARY KEY,
+    customer_id VARCHAR(255),
+    branch_id VARCHAR(255),
+    account_type VARCHAR(50),
+    balance DECIMAL(15, 2),
+    open_date DATE,
+    status VARCHAR(50),
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id),
+    FOREIGN KEY (branch_id) REFERENCES branches(branch_id)
+);
+
+CREATE TABLE transactions (
+    transaction_id VARCHAR(255) PRIMARY KEY,
+    account_id VARCHAR(255),
+    timestamp DATETIME,
+    amount DECIMAL(15, 2),
+    transaction_type VARCHAR(50),
+    description TEXT,
+    FOREIGN KEY (account_id) REFERENCES accounts(account_id)
+);
+
+CREATE TABLE loans (
+    loan_id VARCHAR(255) PRIMARY KEY,
+    customer_id VARCHAR(255),
+    amount DECIMAL(15, 2),
+    interest_rate DECIMAL(5, 2),
+    start_date DATE,
+    end_date DATE,
+    status VARCHAR(50),
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+
+CREATE TABLE cards (
+    card_id VARCHAR(255) PRIMARY KEY,
+    customer_id VARCHAR(255),
+    card_number VARCHAR(255),
+    card_type VARCHAR(50),
+    expiration_date DATE,
+    security_code VARCHAR(10),
+    status VARCHAR(50),
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+
+CREATE TABLE branches (
+    branch_id VARCHAR(255) PRIMARY KEY,
+    name VARCHAR(255),
+    address VARCHAR(255),
+    phone VARCHAR(20)
+);
+
+CREATE TABLE employees (
+    employee_id VARCHAR(255) PRIMARY KEY,
+    branch_id VARCHAR(255),
+    name VARCHAR(255),
+    position VARCHAR(50),
+    salary DECIMAL(10, 2),
+    hire_date DATE,
+    FOREIGN KEY (branch_id) REFERENCES branches(branch_id)
+);
+
+CREATE TABLE atms (
+    atm_id VARCHAR(255) PRIMARY KEY,
+    branch_id VARCHAR(255),
+    location VARCHAR(255),
+    status VARCHAR(50),
+    installation_date DATE,
+    FOREIGN KEY (branch_id) REFERENCES branches(branch_id)
+);
+
+CREATE TABLE investments (
+    investment_id VARCHAR(255) PRIMARY KEY,
+    customer_id VARCHAR(255),
+    type VARCHAR(50),
+    amount DECIMAL(15, 2),
+    start_date DATE,
+    end_date DATE,
+    status VARCHAR(50),
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+
+CREATE TABLE customer_support (
+    support_id VARCHAR(255) PRIMARY KEY,
+    customer_id VARCHAR(255),
+    issue_type VARCHAR(50),
+    description TEXT,
+    status VARCHAR(50),
+    opened_date DATE,
+    closed_date DATE,
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+
+CREATE TABLE fixed_deposits (
+    deposit_id VARCHAR(255) PRIMARY KEY,
+    customer_id VARCHAR(255),
+    amount DECIMAL(15, 2),
+    interest_rate DECIMAL(5, 2),
+    start_date DATE,
+    maturity_date DATE,
+    status VARCHAR(50),
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+
+CREATE TABLE recurring_deposits (
+    deposit_id VARCHAR(255) PRIMARY KEY,
+    customer_id VARCHAR(255),
+    monthly_installment DECIMAL(15, 2),
+    interest_rate DECIMAL(5, 2),
+    start_date DATE,
+    maturity_date DATE,
+    status VARCHAR(50),
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+
+CREATE TABLE online_banking (
+    online_banking_id VARCHAR(255) PRIMARY KEY,
+    customer_id VARCHAR(255),
+    username VARCHAR(255),
+    password VARCHAR(255),
+    last_login DATETIME,
+    status VARCHAR(50),
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+
+CREATE TABLE bill_payments (
+    payment_id VARCHAR(255) PRIMARY KEY,
+    customer_id VARCHAR(255),
+    amount DECIMAL(15, 2),
+    bill_type VARCHAR(50),
+    payment_date DATE,
+    status VARCHAR(50),
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+
+CREATE TABLE insurance (
+    insurance_id VARCHAR(255) PRIMARY KEY,
+    customer_id VARCHAR(255),
+    type VARCHAR(50),
+    amount DECIMAL(15, 2),
+    start_date DATE,
+    end_date DATE,
+    status VARCHAR(50),
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+
+CREATE TABLE credit_scores (
+    score_id VARCHAR(255) PRIMARY KEY,
+    customer_id VARCHAR(255),
+    score INT,
+    report_date DATE,
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+
+CREATE TABLE service_charges (
+    charge_id VARCHAR(255) PRIMARY KEY,
+    account_id VARCHAR(255),
+    amount DECIMAL(15, 2),
+    description TEXT,
+    charge_date DATE,
+    FOREIGN KEY (account_id) REFERENCES accounts(account_id)
+);
+
+CREATE TABLE cheques (
+    cheque_id VARCHAR(255) PRIMARY KEY,
+    account_id VARCHAR(255),
+    amount DECIMAL(15, 2),
+    cheque_date DATE,
+    status VARCHAR(50),
+    FOREIGN KEY (account_id) REFERENCES accounts(account_id)
+);
+
+CREATE TABLE savings_goals (
+    goal_id VARCHAR(255) PRIMARY KEY,
+    customer_id VARCHAR(255),
+    goal_amount DECIMAL(15, 2),
+    current_amount DECIMAL(15, 2),
+    target_date DATE,
+    status VARCHAR(50),
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+
+CREATE TABLE mortgage_applications (
+    application_id VARCHAR(255) PRIMARY KEY,
+    customer_id VARCHAR(255),
+    property_value DECIMAL(15, 2),
+    loan_amount DECIMAL(15, 2),
+    interest_rate DECIMAL(5, 2),
+    application_date DATE,
+    status VARCHAR(50),
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);

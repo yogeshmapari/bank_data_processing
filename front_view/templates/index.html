@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Banking Dashboard</h1>
+        
+        <h2 class="mt-5">Customers</h2>
+        {{ customers_html | safe }}
+        
+        <h2 class="mt-5">Accounts</h2>
+        {{ accounts_html | safe }}
+        
+        <h2 class="mt-5">Transactions</h2>
+        {{ transactions_html | safe }}
+        
+        <h2 class="mt-5">Loans</h2>
+        {{ loans_html | safe }}
+        
+        <h2 class="mt-5">Cards</h2>
+        {{ cards_html | safe }}
+        
+        <h2 class="mt-5">Branches</h2>
+        {{ branches_html | safe }}
+        
+        <h2 class="mt-5">Employees</h2>
+        {{ employees_html | safe }}
+    </div>
+</body>
+</html>

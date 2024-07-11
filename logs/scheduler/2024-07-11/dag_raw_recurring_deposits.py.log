@@ -142,3 +142,271 @@ ModuleNotFoundError: No module named 'pandas'
 [2024-07-12T01:52:07.673+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:07.673+0530] {dag.py:3118} INFO - Creating ORM DAG for raw_load_recurring_deposits
 [2024-07-12T01:52:07.675+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:07.674+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
 [2024-07-12T01:52:07.715+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.966 seconds
+[2024-07-12T01:52:38.012+0530] {processor.py:161} INFO - Started process (PID=41089) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:52:38.013+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T01:52:38.015+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:38.014+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:52:38.371+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:38.371+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:52:38.375+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:52:38.447+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:38.446+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:52:38.455+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:38.455+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T01:52:38.573+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.568 seconds
+[2024-07-12T01:53:08.745+0530] {processor.py:161} INFO - Started process (PID=41753) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:53:08.747+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T01:53:08.748+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:08.748+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:53:09.068+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:09.068+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:53:09.072+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:53:09.151+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:09.151+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:53:09.159+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:09.159+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T01:53:09.185+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.450 seconds
+[2024-07-12T01:53:39.512+0530] {processor.py:161} INFO - Started process (PID=42358) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:53:39.513+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T01:53:39.515+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:39.515+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:53:39.860+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:39.860+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:53:39.864+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:53:39.946+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:39.946+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:53:39.955+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:39.955+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T01:53:39.991+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.489 seconds
+[2024-07-12T01:54:10.563+0530] {processor.py:161} INFO - Started process (PID=43083) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:54:10.565+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T01:54:10.566+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:10.566+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:54:11.053+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:11.053+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:54:11.059+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:54:11.289+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:11.289+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:54:11.299+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:11.299+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T01:54:11.329+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.773 seconds
+[2024-07-12T01:54:41.719+0530] {processor.py:161} INFO - Started process (PID=43705) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:54:41.723+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T01:54:41.726+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:41.725+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:54:42.226+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:42.226+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:54:42.232+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:54:42.428+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:42.428+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:54:42.448+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:42.448+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T01:54:42.466+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.764 seconds
+[2024-07-12T01:55:12.930+0530] {processor.py:161} INFO - Started process (PID=44284) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:55:12.931+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T01:55:12.934+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:12.933+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:55:13.267+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:13.266+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:55:13.273+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:55:13.408+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:13.407+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:55:13.565+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:13.565+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T01:55:13.593+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.674 seconds
+[2024-07-12T01:55:43.684+0530] {processor.py:161} INFO - Started process (PID=44768) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:55:43.685+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T01:55:43.686+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:43.686+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:55:44.093+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:44.093+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:55:44.098+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:55:44.178+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:44.178+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:55:44.187+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:44.187+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T01:55:44.328+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.653 seconds
+[2024-07-12T01:56:14.617+0530] {processor.py:161} INFO - Started process (PID=45237) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:56:14.619+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T01:56:14.621+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:14.620+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:56:15.013+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:15.013+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:56:15.017+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:56:15.224+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:15.224+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:56:15.233+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:15.233+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T01:56:15.259+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.654 seconds
+[2024-07-12T01:56:46.222+0530] {processor.py:161} INFO - Started process (PID=45816) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:56:46.224+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T01:56:46.226+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:46.226+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:56:46.689+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:46.688+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:56:46.695+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:56:46.927+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:46.927+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:56:46.938+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:46.938+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T01:56:46.969+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.771 seconds
+[2024-07-12T01:57:17.660+0530] {processor.py:161} INFO - Started process (PID=46348) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:57:17.662+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T01:57:17.664+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:17.663+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:57:18.099+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:18.099+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:57:18.106+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:57:18.320+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:18.319+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:57:18.329+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:18.329+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T01:57:18.347+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.700 seconds
+[2024-07-12T01:57:48.451+0530] {processor.py:161} INFO - Started process (PID=46856) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:57:48.452+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T01:57:48.454+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:48.453+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:57:48.849+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:48.848+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:57:48.856+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:57:49.064+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:49.064+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:57:49.074+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:49.073+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T01:57:49.100+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.656 seconds
+[2024-07-12T01:58:19.688+0530] {processor.py:161} INFO - Started process (PID=47334) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:58:19.689+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T01:58:19.690+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:19.690+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:58:20.105+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:20.105+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:58:20.109+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:58:20.331+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:20.330+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:58:20.341+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:20.341+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T01:58:20.365+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.687 seconds
+[2024-07-12T01:58:51.748+0530] {processor.py:161} INFO - Started process (PID=47822) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:58:51.751+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T01:58:51.753+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:51.753+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:58:52.345+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:52.345+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:58:52.351+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:58:52.624+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:52.624+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:58:52.635+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:52.635+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T01:58:52.663+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.933 seconds
+[2024-07-12T01:59:25.361+0530] {processor.py:161} INFO - Started process (PID=48440) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:59:25.366+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T01:59:25.368+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:25.367+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:59:25.764+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:25.763+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:59:25.772+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:59:26.078+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:26.077+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:59:26.089+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:26.089+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T01:59:26.139+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.794 seconds
+[2024-07-12T01:59:58.438+0530] {processor.py:161} INFO - Started process (PID=49130) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:59:58.440+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T01:59:58.443+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:58.443+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T01:59:59.247+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:59.247+0530] {process_utils.py:263} INFO - Waiting up to 5 seconds for processes to exit...
+[2024-07-12T02:00:12.507+0530] {processor.py:161} INFO - Started process (PID=49575) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:00:12.508+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:00:12.509+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:12.509+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:00:13.008+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:13.007+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:00:13.014+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:00:13.116+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:13.116+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:00:13.125+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:13.125+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:00:13.153+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.652 seconds
+[2024-07-12T02:00:43.647+0530] {processor.py:161} INFO - Started process (PID=50243) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:00:43.648+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:00:43.650+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:43.649+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:00:44.369+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:44.368+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:00:44.375+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:00:44.484+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:44.483+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:00:44.494+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:44.493+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:00:44.520+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.880 seconds
+[2024-07-12T02:01:17.120+0530] {processor.py:161} INFO - Started process (PID=50802) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:01:17.122+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:01:17.124+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:17.124+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:01:17.862+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:17.861+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:01:17.870+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:01:17.981+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:17.981+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:01:17.992+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:17.991+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:01:18.023+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.914 seconds
+[2024-07-12T02:01:48.551+0530] {processor.py:161} INFO - Started process (PID=51485) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:01:48.552+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:01:48.554+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:48.553+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:01:49.055+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:49.054+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:01:49.058+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:01:49.140+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:49.140+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:01:49.148+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:49.148+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:01:49.171+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.626 seconds
+[2024-07-12T02:02:19.454+0530] {processor.py:161} INFO - Started process (PID=52080) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:02:19.455+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:02:19.457+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:19.457+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:02:20.039+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:20.038+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:02:20.045+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:02:20.213+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:20.213+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:02:20.228+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:20.228+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:02:20.263+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.819 seconds
+[2024-07-12T02:02:50.601+0530] {processor.py:161} INFO - Started process (PID=52553) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:02:50.602+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:02:50.604+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:50.603+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:02:51.036+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:51.035+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:02:51.041+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:02:51.170+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:51.169+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:02:51.185+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:51.185+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:02:51.215+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.621 seconds
+[2024-07-12T02:03:21.616+0530] {processor.py:161} INFO - Started process (PID=53130) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:03:21.617+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:03:21.620+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:21.619+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:03:22.077+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:22.076+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:03:22.083+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:03:22.183+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:22.183+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:03:22.200+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:22.199+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:03:22.345+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.737 seconds
+[2024-07-12T02:03:53.063+0530] {processor.py:161} INFO - Started process (PID=53648) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:03:53.064+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:03:53.067+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:53.067+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:03:53.600+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:53.600+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:03:53.605+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:03:53.705+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:53.704+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:03:53.714+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:53.714+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:03:53.738+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.687 seconds
+[2024-07-12T02:04:23.857+0530] {processor.py:161} INFO - Started process (PID=54125) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:04:23.858+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:04:23.860+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:23.860+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:04:24.172+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:24.172+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:04:24.176+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:04:24.256+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:24.256+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:04:24.265+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:24.264+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:04:24.289+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.438 seconds
+[2024-07-12T02:04:55.071+0530] {processor.py:161} INFO - Started process (PID=54707) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:04:55.072+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:04:55.074+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:55.074+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:04:55.541+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:55.541+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:04:55.547+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:04:55.660+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:55.660+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:04:55.670+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:55.669+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:04:55.697+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.633 seconds
+[2024-07-12T02:05:26.179+0530] {processor.py:161} INFO - Started process (PID=55218) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:05:26.180+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:05:26.183+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:26.182+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:05:26.605+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:26.605+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:05:26.609+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:05:26.689+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:26.689+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:05:26.697+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:26.697+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:05:26.726+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.554 seconds
+[2024-07-12T02:05:59.124+0530] {processor.py:161} INFO - Started process (PID=55750) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:05:59.127+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:05:59.130+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:59.129+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:05:59.849+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:59.848+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:05:59.860+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:06:00.053+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:06:00.052+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:06:00.308+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:06:00.308+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:06:00.352+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 1.239 seconds
+[2024-07-12T02:06:30.859+0530] {processor.py:161} INFO - Started process (PID=56422) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:06:30.862+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:06:30.864+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:06:30.863+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:06:31.624+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:06:31.621+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:06:31.630+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:06:31.802+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:06:31.802+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:06:31.820+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:06:31.819+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:06:32.105+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 1.261 seconds
+[2024-07-12T02:07:03.027+0530] {processor.py:161} INFO - Started process (PID=57113) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:07:03.030+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:07:03.032+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:03.032+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:07:03.683+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:03.683+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:07:03.689+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:07:03.828+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:03.827+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:07:03.840+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:03.840+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:07:03.884+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.866 seconds
+[2024-07-12T02:07:34.349+0530] {processor.py:161} INFO - Started process (PID=57826) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:07:34.355+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:07:34.358+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:34.357+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:07:34.913+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:34.913+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:07:34.920+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:07:35.243+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:35.243+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:07:35.257+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:35.257+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:07:35.288+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.955 seconds
+[2024-07-12T02:08:05.345+0530] {processor.py:161} INFO - Started process (PID=58354) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:08:05.348+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:08:05.349+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:05.349+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:08:05.919+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:05.918+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:08:05.925+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:08:06.208+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:06.208+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:08:06.227+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:06.226+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:08:06.263+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.928 seconds
+[2024-07-12T02:08:36.701+0530] {processor.py:161} INFO - Started process (PID=58886) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:08:36.702+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:08:36.704+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:36.703+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:08:37.230+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:37.230+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:08:37.235+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:08:37.367+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:37.367+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:08:37.557+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:37.556+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:08:37.599+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.906 seconds
+[2024-07-12T02:09:07.824+0530] {processor.py:161} INFO - Started process (PID=59521) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:09:07.825+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:09:07.826+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:07.826+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:09:08.397+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:08.397+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:09:08.403+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:09:08.500+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:08.500+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:09:08.516+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:08.516+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:09:08.740+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 0.922 seconds
+[2024-07-12T02:09:38.805+0530] {processor.py:161} INFO - Started process (PID=60225) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:09:38.808+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py for tasks to queue
+[2024-07-12T02:09:38.810+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:38.809+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:09:39.734+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:39.733+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:09:39.763+0530] {processor.py:840} INFO - DAG(s) 'raw_load_recurring_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py
+[2024-07-12T02:09:40.165+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:40.164+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:09:40.179+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:40.178+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_recurring_deposits to None, run_after=None
+[2024-07-12T02:09:40.238+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_recurring_deposits.py took 1.448 seconds

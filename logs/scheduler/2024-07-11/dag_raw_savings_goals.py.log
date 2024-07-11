@@ -142,3 +142,283 @@ ModuleNotFoundError: No module named 'pandas'
 [2024-07-12T01:52:04.340+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:04.340+0530] {dag.py:3118} INFO - Creating ORM DAG for raw_load_savings_goals
 [2024-07-12T01:52:04.341+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:04.341+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
 [2024-07-12T01:52:04.360+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.617 seconds
+[2024-07-12T01:52:34.676+0530] {processor.py:161} INFO - Started process (PID=40986) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:52:34.676+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T01:52:34.678+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:34.678+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:52:35.073+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:35.072+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:52:35.077+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:52:35.172+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:35.171+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:52:35.182+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:35.182+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T01:52:35.312+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.645 seconds
+[2024-07-12T01:53:05.631+0530] {processor.py:161} INFO - Started process (PID=41630) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:53:05.631+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T01:53:05.633+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:05.633+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:53:06.051+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:06.050+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:53:06.056+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:53:06.189+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:06.188+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:53:06.203+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:06.202+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T01:53:06.229+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.607 seconds
+[2024-07-12T01:53:36.310+0530] {processor.py:161} INFO - Started process (PID=42255) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:53:36.310+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T01:53:36.312+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:36.312+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:53:36.733+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:36.732+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:53:36.738+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:53:36.826+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:36.826+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:53:36.834+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:36.834+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T01:53:36.858+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.557 seconds
+[2024-07-12T01:54:07.060+0530] {processor.py:161} INFO - Started process (PID=42981) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:54:07.061+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T01:54:07.063+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:07.063+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:54:07.460+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:07.459+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:54:07.466+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:54:07.711+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:07.711+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:54:07.722+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:07.721+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T01:54:07.749+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.696 seconds
+[2024-07-12T01:54:38.518+0530] {processor.py:161} INFO - Started process (PID=43603) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:54:38.519+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T01:54:38.521+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:38.521+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:54:39.050+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:39.049+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:54:39.059+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:54:39.298+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:39.298+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:54:39.309+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:39.308+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T01:54:39.331+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.821 seconds
+[2024-07-12T01:55:09.778+0530] {processor.py:161} INFO - Started process (PID=44188) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:55:09.779+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T01:55:09.781+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:09.781+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:55:10.172+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:10.171+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:55:10.176+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:55:10.260+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:10.259+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:55:10.385+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:10.385+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T01:55:10.409+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.641 seconds
+[2024-07-12T01:55:40.709+0530] {processor.py:161} INFO - Started process (PID=44680) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:55:40.710+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T01:55:40.712+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:40.712+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:55:41.212+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:41.211+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:55:41.219+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:55:41.325+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:41.324+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:55:41.333+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:41.333+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T01:55:41.464+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.765 seconds
+[2024-07-12T01:56:11.669+0530] {processor.py:161} INFO - Started process (PID=45149) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:56:11.671+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T01:56:11.673+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:11.673+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:56:12.094+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:12.094+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:56:12.100+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:56:12.309+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:12.308+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:56:12.320+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:12.320+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T01:56:12.341+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.681 seconds
+[2024-07-12T01:56:43.337+0530] {processor.py:161} INFO - Started process (PID=45716) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:56:43.337+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T01:56:43.339+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:43.339+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:56:43.736+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:43.735+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:56:43.741+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:56:43.939+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:43.938+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:56:43.948+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:43.948+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T01:56:43.979+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.651 seconds
+[2024-07-12T01:57:14.479+0530] {processor.py:161} INFO - Started process (PID=46228) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:57:14.480+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T01:57:14.483+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:14.482+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:57:14.841+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:14.841+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:57:14.847+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:57:15.036+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:15.036+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:57:15.046+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:15.046+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T01:57:15.075+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.606 seconds
+[2024-07-12T01:57:45.644+0530] {processor.py:161} INFO - Started process (PID=46755) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:57:45.647+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T01:57:45.651+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:45.650+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:57:46.073+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:46.072+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:57:46.077+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:57:46.276+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:46.276+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:57:46.285+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:46.284+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T01:57:46.304+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.671 seconds
+[2024-07-12T01:58:16.701+0530] {processor.py:161} INFO - Started process (PID=47246) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:58:16.702+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T01:58:16.704+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:16.703+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:58:17.122+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:17.122+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:58:17.127+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:58:17.350+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:17.349+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:58:17.360+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:17.360+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T01:58:17.381+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.689 seconds
+[2024-07-12T01:58:48.283+0530] {processor.py:161} INFO - Started process (PID=47725) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:58:48.284+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T01:58:48.287+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:48.286+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:58:48.899+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:48.898+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:58:48.905+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:58:49.273+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:49.271+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:58:49.300+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:49.300+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T01:58:49.336+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 1.073 seconds
+[2024-07-12T01:59:20.803+0530] {processor.py:161} INFO - Started process (PID=48304) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:59:20.806+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T01:59:20.808+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:20.808+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:59:21.627+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:21.626+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:59:21.641+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:59:22.128+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:22.128+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:59:22.145+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:22.145+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T01:59:22.182+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 1.408 seconds
+[2024-07-12T01:59:52.323+0530] {processor.py:161} INFO - Started process (PID=48954) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:59:52.325+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T01:59:52.328+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:52.327+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:59:53.032+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:53.031+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:59:53.039+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T01:59:53.515+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:53.514+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:59:53.533+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:53.533+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T01:59:53.578+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 1.276 seconds
+[2024-07-12T02:00:08.632+0530] {processor.py:161} INFO - Started process (PID=49433) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:00:08.633+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:00:08.636+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:08.635+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:00:09.652+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:09.652+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:00:09.666+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:00:09.671+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:09.670+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:00:09.697+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:09.697+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:00:09.742+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 1.122 seconds
+[2024-07-12T02:00:39.933+0530] {processor.py:161} INFO - Started process (PID=50132) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:00:39.936+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:00:39.938+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:39.938+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:00:40.574+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:40.574+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:00:40.579+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:00:40.712+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:40.711+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:00:40.723+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:40.723+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:00:40.768+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.841 seconds
+[2024-07-12T02:01:12.160+0530] {processor.py:161} INFO - Started process (PID=50688) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:01:12.161+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:01:12.166+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:12.165+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:01:13.126+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:13.125+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:01:13.135+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:01:13.325+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:13.324+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:01:13.348+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:13.348+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:01:13.395+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 1.244 seconds
+[2024-07-12T02:01:43.531+0530] {processor.py:161} INFO - Started process (PID=51338) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:01:43.533+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:01:43.536+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:43.535+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:01:44.480+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:44.479+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:01:44.490+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:01:44.652+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:44.652+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:01:44.667+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:44.667+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:01:44.702+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 1.187 seconds
+[2024-07-12T02:02:15.497+0530] {processor.py:161} INFO - Started process (PID=51978) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:02:15.503+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:02:15.506+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:15.505+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:02:15.913+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:15.913+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:02:15.919+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:02:16.010+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:16.010+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:02:16.018+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:16.018+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:02:16.041+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.557 seconds
+[2024-07-12T02:02:46.584+0530] {processor.py:161} INFO - Started process (PID=52457) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:02:46.589+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:02:46.591+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:46.591+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:02:47.040+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:47.039+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:02:47.044+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:02:47.129+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:47.129+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:02:47.139+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:47.139+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:02:47.164+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.591 seconds
+[2024-07-12T02:03:17.330+0530] {processor.py:161} INFO - Started process (PID=53034) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:03:17.332+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:03:17.334+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:17.334+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:03:17.724+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:17.723+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:03:17.728+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:03:17.812+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:17.812+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:03:17.821+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:17.820+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:03:17.966+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.643 seconds
+[2024-07-12T02:03:48.251+0530] {processor.py:161} INFO - Started process (PID=53528) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:03:48.257+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:03:48.259+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:48.258+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:03:48.695+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:48.694+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:03:48.699+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:03:48.783+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:48.783+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:03:48.792+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:48.792+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:03:48.822+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.578 seconds
+[2024-07-12T02:04:19.623+0530] {processor.py:161} INFO - Started process (PID=54021) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:04:19.629+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:04:19.631+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:19.631+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:04:20.076+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:20.076+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:04:20.080+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:04:20.242+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:20.241+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:04:20.255+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:20.255+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:04:20.289+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.678 seconds
+[2024-07-12T02:04:50.745+0530] {processor.py:161} INFO - Started process (PID=54602) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:04:50.751+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:04:50.755+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:50.755+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:04:51.380+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:51.380+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:04:51.390+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:04:51.547+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:51.546+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:04:51.560+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:51.559+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:04:51.586+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.854 seconds
+[2024-07-12T02:05:21.976+0530] {processor.py:161} INFO - Started process (PID=55122) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:05:21.978+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:05:21.980+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:21.979+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:05:22.390+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:22.389+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:05:22.394+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:05:22.478+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:22.478+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:05:22.622+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:22.621+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:05:22.650+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.684 seconds
+[2024-07-12T02:05:53.615+0530] {processor.py:161} INFO - Started process (PID=55598) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:05:53.623+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:05:53.630+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:53.628+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:05:54.214+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:54.214+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:05:54.219+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:05:54.384+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:54.383+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:05:54.410+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:54.410+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:05:54.645+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 1.054 seconds
+[2024-07-12T02:06:25.103+0530] {processor.py:161} INFO - Started process (PID=56285) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:06:25.109+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:06:25.112+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:06:25.112+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:06:25.608+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:06:25.608+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:06:25.613+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:06:25.736+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:06:25.735+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:06:25.749+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:06:25.749+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:06:25.788+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.696 seconds
+[2024-07-12T02:06:55.866+0530] {processor.py:161} INFO - Started process (PID=56917) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:06:55.872+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:06:55.874+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:06:55.874+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:06:56.458+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:06:56.458+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:06:56.469+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:06:56.647+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:06:56.646+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:06:56.665+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:06:56.664+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:06:56.703+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.850 seconds
+[2024-07-12T02:07:27.250+0530] {processor.py:161} INFO - Started process (PID=57646) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:07:27.252+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:07:27.258+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:27.258+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:07:27.831+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:27.831+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:07:27.841+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:07:28.230+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:28.230+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:07:28.247+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:28.247+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:07:28.281+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 1.042 seconds
+[2024-07-12T02:07:58.900+0530] {processor.py:161} INFO - Started process (PID=58234) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:07:58.903+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:07:58.907+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:58.907+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:07:59.479+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:59.479+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:07:59.487+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:07:59.807+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:59.807+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:07:59.827+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:59.826+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:07:59.866+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.976 seconds
+[2024-07-12T02:08:29.980+0530] {processor.py:161} INFO - Started process (PID=58716) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:08:29.982+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:08:29.985+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:29.984+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:08:30.486+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:30.486+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:08:30.494+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:08:30.628+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:30.627+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:08:30.909+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:30.909+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:08:30.964+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.997 seconds
+[2024-07-12T02:09:01.335+0530] {processor.py:161} INFO - Started process (PID=59393) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:09:01.338+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:09:01.341+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:01.341+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:09:01.904+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:01.903+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:09:01.911+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:09:02.104+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:02.104+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:09:02.119+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:02.118+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:09:02.327+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.999 seconds
+[2024-07-12T02:09:32.907+0530] {processor.py:161} INFO - Started process (PID=60082) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:09:32.915+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:09:32.917+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:32.916+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:09:33.522+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:33.522+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:09:33.533+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:09:33.816+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:33.815+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:09:33.830+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:33.830+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:09:33.868+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 0.986 seconds
+[2024-07-12T02:10:04.238+0530] {processor.py:161} INFO - Started process (PID=60790) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:10:04.241+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py for tasks to queue
+[2024-07-12T02:10:04.243+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:10:04.242+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:10:04.965+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:10:04.964+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:10:04.973+0530] {processor.py:840} INFO - DAG(s) 'raw_load_savings_goals' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py
+[2024-07-12T02:10:05.348+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:10:05.347+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:10:05.368+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:10:05.367+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_savings_goals to None, run_after=None
+[2024-07-12T02:10:05.419+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_savings_goals.py took 1.195 seconds

@@ -142,3 +142,275 @@ ModuleNotFoundError: No module named 'pandas'
 [2024-07-12T01:52:06.176+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:06.176+0530] {dag.py:3118} INFO - Creating ORM DAG for raw_load_transactions
 [2024-07-12T01:52:06.179+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:06.177+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
 [2024-07-12T01:52:06.207+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.860 seconds
+[2024-07-12T01:52:36.543+0530] {processor.py:161} INFO - Started process (PID=41049) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:52:36.545+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T01:52:36.547+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:36.547+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:52:36.975+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:36.975+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:52:36.979+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:52:37.066+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:37.066+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:52:37.076+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:37.075+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T01:52:37.199+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.666 seconds
+[2024-07-12T01:53:07.349+0530] {processor.py:161} INFO - Started process (PID=41710) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:53:07.351+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T01:53:07.352+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:07.352+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:53:07.678+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:07.678+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:53:07.682+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:53:07.769+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:07.769+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:53:07.777+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:07.777+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T01:53:07.802+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.460 seconds
+[2024-07-12T01:53:38.483+0530] {processor.py:161} INFO - Started process (PID=42325) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:53:38.484+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T01:53:38.487+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:38.486+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:53:38.873+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:38.873+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:53:38.877+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:53:38.962+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:38.962+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:53:38.970+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:53:38.970+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T01:53:38.994+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.522 seconds
+[2024-07-12T01:54:09.545+0530] {processor.py:161} INFO - Started process (PID=43051) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:54:09.546+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T01:54:09.547+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:09.547+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:54:10.012+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:10.011+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:54:10.017+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:54:10.261+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:10.261+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:54:10.274+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:10.274+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T01:54:10.309+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.773 seconds
+[2024-07-12T01:54:40.524+0530] {processor.py:161} INFO - Started process (PID=43659) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:54:40.525+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T01:54:40.528+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:40.528+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:54:41.007+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:41.007+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:54:41.011+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:54:41.369+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:41.369+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:54:41.384+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:54:41.384+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T01:54:41.412+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.897 seconds
+[2024-07-12T01:55:11.506+0530] {processor.py:161} INFO - Started process (PID=44244) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:55:11.506+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T01:55:11.508+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:11.508+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:55:11.906+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:11.906+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:55:11.911+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:55:11.992+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:11.992+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:55:12.101+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:12.101+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T01:55:12.125+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.628 seconds
+[2024-07-12T01:55:42.516+0530] {processor.py:161} INFO - Started process (PID=44736) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:55:42.516+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T01:55:42.518+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:42.518+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:55:42.926+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:42.925+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:55:42.931+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:55:43.036+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:43.036+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:55:43.048+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:55:43.048+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T01:55:43.171+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.665 seconds
+[2024-07-12T01:56:13.390+0530] {processor.py:161} INFO - Started process (PID=45205) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:56:13.391+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T01:56:13.393+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:13.392+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:56:13.826+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:13.825+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:56:13.830+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:56:14.076+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:14.076+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:56:14.085+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:14.085+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T01:56:14.105+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.724 seconds
+[2024-07-12T01:56:45.201+0530] {processor.py:161} INFO - Started process (PID=45784) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:56:45.202+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T01:56:45.204+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:45.204+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:56:45.661+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:45.661+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:56:45.669+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:56:45.966+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:45.965+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:56:45.976+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:56:45.976+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T01:56:46.005+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.813 seconds
+[2024-07-12T01:57:16.626+0530] {processor.py:161} INFO - Started process (PID=46313) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:57:16.627+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T01:57:16.629+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:16.628+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:57:17.047+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:17.047+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:57:17.053+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:57:17.290+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:17.289+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:57:17.306+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:17.306+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T01:57:17.341+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.725 seconds
+[2024-07-12T01:57:47.573+0530] {processor.py:161} INFO - Started process (PID=46824) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:57:47.574+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T01:57:47.576+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:47.576+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:57:47.972+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:47.972+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:57:47.976+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:57:48.175+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:48.174+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:57:48.185+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:57:48.184+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T01:57:48.210+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.647 seconds
+[2024-07-12T01:58:18.700+0530] {processor.py:161} INFO - Started process (PID=47302) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:58:18.702+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T01:58:18.705+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:18.705+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:58:19.159+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:19.158+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:58:19.163+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:58:19.377+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:19.377+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:58:19.387+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:19.387+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T01:58:19.414+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.735 seconds
+[2024-07-12T01:58:50.491+0530] {processor.py:161} INFO - Started process (PID=47790) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:58:50.498+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T01:58:50.499+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:50.499+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:58:50.913+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:50.912+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:58:50.917+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:58:51.128+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:51.127+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:58:51.138+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:58:51.137+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T01:58:51.156+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.686 seconds
+[2024-07-12T01:59:24.385+0530] {processor.py:161} INFO - Started process (PID=48410) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:59:24.386+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T01:59:24.389+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:24.388+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:59:24.778+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:24.777+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:59:24.784+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:59:25.063+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:25.062+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:59:25.076+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:25.076+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T01:59:25.108+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.736 seconds
+[2024-07-12T01:59:56.773+0530] {processor.py:161} INFO - Started process (PID=49074) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:59:56.776+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T01:59:56.782+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:56.782+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:59:57.506+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:57.505+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:59:57.515+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T01:59:58.028+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:58.026+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:59:58.066+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:59:58.065+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T01:59:58.133+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 1.371 seconds
+[2024-07-12T02:00:11.130+0530] {processor.py:161} INFO - Started process (PID=49535) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:00:11.132+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:00:11.135+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:11.135+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:00:11.873+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:11.873+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:00:11.888+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:00:11.894+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:11.893+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:00:11.907+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:11.907+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:00:11.939+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.819 seconds
+[2024-07-12T02:00:42.274+0530] {processor.py:161} INFO - Started process (PID=50181) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:00:42.275+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:00:42.277+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:42.277+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:00:42.830+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:42.830+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:00:42.834+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:00:42.918+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:42.918+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:00:42.927+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:00:42.926+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:00:42.949+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.681 seconds
+[2024-07-12T02:01:14.917+0530] {processor.py:161} INFO - Started process (PID=50752) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:01:14.921+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:01:14.923+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:14.923+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:01:15.735+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:15.735+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:01:15.747+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:01:15.903+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:15.902+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:01:15.934+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:15.933+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:01:15.988+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 1.086 seconds
+[2024-07-12T02:01:46.203+0530] {processor.py:161} INFO - Started process (PID=51408) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:01:46.204+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:01:46.206+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:46.206+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:01:46.703+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:46.703+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:01:46.707+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:01:46.811+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:46.811+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:01:46.823+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:01:46.822+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:01:46.856+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.660 seconds
+[2024-07-12T02:02:17.019+0530] {processor.py:161} INFO - Started process (PID=52027) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:02:17.020+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:02:17.021+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:17.021+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:02:17.431+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:17.430+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:02:17.435+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:02:17.521+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:17.520+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:02:17.530+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:17.530+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:02:17.560+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.548 seconds
+[2024-07-12T02:02:48.203+0530] {processor.py:161} INFO - Started process (PID=52513) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:02:48.204+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:02:48.206+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:48.206+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:02:48.608+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:48.608+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:02:48.612+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:02:48.693+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:48.693+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:02:48.703+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:02:48.703+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:02:48.733+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.537 seconds
+[2024-07-12T02:03:19.346+0530] {processor.py:161} INFO - Started process (PID=53090) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:03:19.348+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:03:19.349+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:19.349+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:03:19.658+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:19.657+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:03:19.661+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:03:19.740+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:19.739+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:03:19.747+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:19.747+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:03:19.877+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.537 seconds
+[2024-07-12T02:03:50.888+0530] {processor.py:161} INFO - Started process (PID=53592) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:03:50.889+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:03:50.890+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:50.890+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:03:51.205+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:51.204+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:03:51.209+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:03:51.288+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:51.287+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:03:51.296+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:03:51.295+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:03:51.314+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.432 seconds
+[2024-07-12T02:04:22.217+0530] {processor.py:161} INFO - Started process (PID=54085) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:04:22.218+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:04:22.221+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:22.221+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:04:22.529+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:22.529+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:04:22.533+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:04:22.612+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:22.612+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:04:22.620+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:22.620+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:04:22.644+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.437 seconds
+[2024-07-12T02:04:53.137+0530] {processor.py:161} INFO - Started process (PID=54666) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:04:53.139+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:04:53.143+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:53.142+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:04:53.579+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:53.578+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:04:53.583+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:04:53.701+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:53.700+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:04:53.713+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:04:53.713+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:04:53.748+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.624 seconds
+[2024-07-12T02:05:23.958+0530] {processor.py:161} INFO - Started process (PID=55178) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:05:23.959+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:05:23.962+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:23.961+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:05:24.276+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:24.276+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:05:24.280+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:05:24.364+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:24.363+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:05:24.483+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:24.483+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:05:24.511+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.560 seconds
+[2024-07-12T02:05:57.162+0530] {processor.py:161} INFO - Started process (PID=55710) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:05:57.164+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:05:57.166+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:57.166+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:05:57.781+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:57.781+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:05:57.787+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:05:57.969+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:57.968+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:05:58.181+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:05:58.180+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:05:58.229+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 1.078 seconds
+[2024-07-12T02:06:28.862+0530] {processor.py:161} INFO - Started process (PID=56352) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:06:28.868+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:06:28.870+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:06:28.870+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:06:29.513+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:06:29.512+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:06:29.523+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:06:29.714+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:06:29.713+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:06:29.739+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:06:29.739+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:06:29.790+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.938 seconds
+[2024-07-12T02:07:00.265+0530] {processor.py:161} INFO - Started process (PID=57027) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:07:00.268+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:07:00.270+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:00.269+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:07:00.892+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:00.892+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:07:00.900+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:07:01.033+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:01.032+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:07:01.047+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:01.047+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:07:01.074+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.819 seconds
+[2024-07-12T02:07:31.312+0530] {processor.py:161} INFO - Started process (PID=57748) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:07:31.320+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:07:31.326+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:31.325+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:07:31.806+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:31.805+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:07:31.811+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:07:32.199+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:32.198+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:07:32.214+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:07:32.213+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:07:32.259+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.974 seconds
+[2024-07-12T02:08:02.704+0530] {processor.py:161} INFO - Started process (PID=58306) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:08:02.711+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:08:02.717+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:02.716+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:08:03.246+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:03.246+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:08:03.251+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:08:03.517+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:03.516+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:08:03.527+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:03.527+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:08:03.554+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.859 seconds
+[2024-07-12T02:08:34.205+0530] {processor.py:161} INFO - Started process (PID=58838) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:08:34.213+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:08:34.216+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:34.216+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:08:34.649+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:34.648+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:08:34.654+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:08:34.780+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:34.779+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:08:34.945+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:08:34.945+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:08:34.985+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.800 seconds
+[2024-07-12T02:09:05.132+0530] {processor.py:161} INFO - Started process (PID=59457) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:09:05.140+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:09:05.142+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:05.142+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:09:05.595+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:05.595+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:09:05.600+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:09:05.744+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:05.743+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:09:05.768+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:05.768+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:09:05.943+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 0.822 seconds
+[2024-07-12T02:09:36.101+0530] {processor.py:161} INFO - Started process (PID=60147) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:09:36.102+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py for tasks to queue
+[2024-07-12T02:09:36.104+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:36.103+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:09:36.755+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:36.755+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T02:09:36.766+0530] {processor.py:840} INFO - DAG(s) 'raw_load_transactions' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py
+[2024-07-12T02:09:37.153+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:37.152+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T02:09:37.170+0530] {logging_mixin.py:188} INFO - [2024-07-12T02:09:37.170+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_transactions to None, run_after=None
+[2024-07-12T02:09:37.208+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_transactions.py took 1.122 seconds

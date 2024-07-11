@@ -1,3 +1,4 @@
+
 import os
 import json
 import shutil
@@ -9,9 +10,9 @@ from airflow.hooks.mysql_hook import MySqlHook
 from airflow.operators.python_operator import PythonOperator
 from airflow.utils.dates import days_ago
 from datetime import datetime
-from scripts.raw_load_accounts import create_tables,tuncate_table,insert_table
+from scripts.raw_load_recurring_deposits import create_tables,tuncate_table,insert_table
 # Airflow DAG definition
-default_args = {
+default_args =  {
     'owner': 'airflow',
     'depends_on_past': False,
     'email_on_failure': False,
@@ -20,7 +21,7 @@ default_args = {
 }
 
 dag = DAG(
-    'raw_load_accounts',
+    'raw_load_recurring_deposits',
     default_args=default_args,
     description='Load JSON files from landing area to MySQL and move to archive',
     schedule_interval=None,

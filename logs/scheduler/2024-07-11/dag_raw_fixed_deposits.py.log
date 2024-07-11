@@ -1,0 +1,152 @@
+[2024-07-12T01:47:48.999+0530] {processor.py:161} INFO - Started process (PID=36629) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:47:49.000+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py for tasks to queue
+[2024-07-12T01:47:49.001+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:47:49.001+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:47:49.020+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:47:49.019+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py", line 13, in <module>
+    from scripts.raw_load_fixed_deposits import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'scripts'
+[2024-07-12T01:47:49.021+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:47:49.041+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py took 0.048 seconds
+[2024-07-12T01:48:19.259+0530] {processor.py:161} INFO - Started process (PID=37113) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:48:19.260+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py for tasks to queue
+[2024-07-12T01:48:19.262+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:19.262+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:48:19.287+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:19.286+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py", line 13, in <module>
+    from scripts.raw_load_fixed_deposits import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'scripts'
+[2024-07-12T01:48:19.288+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:48:19.308+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py took 0.056 seconds
+[2024-07-12T01:48:50.741+0530] {processor.py:161} INFO - Started process (PID=37496) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:48:50.742+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py for tasks to queue
+[2024-07-12T01:48:50.744+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:50.743+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:48:50.761+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:50.760+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py", line 13, in <module>
+    from scripts.raw_load_fixed_deposits import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'scripts'
+[2024-07-12T01:48:50.762+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:48:50.784+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py took 0.050 seconds
+[2024-07-12T01:48:55.572+0530] {processor.py:161} INFO - Started process (PID=37559) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:48:55.574+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py for tasks to queue
+[2024-07-12T01:48:55.577+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:55.577+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:48:55.605+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:55.604+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py", line 13, in <module>
+    from models.raw_models.raw_load_fixed_deposits import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'models'
+[2024-07-12T01:48:55.606+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:48:55.629+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py took 0.069 seconds
+[2024-07-12T01:49:26.042+0530] {processor.py:161} INFO - Started process (PID=38002) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:49:26.043+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py for tasks to queue
+[2024-07-12T01:49:26.045+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:26.045+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:49:26.068+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:26.067+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py", line 13, in <module>
+    from models.raw_models.raw_load_fixed_deposits import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'models'
+[2024-07-12T01:49:26.069+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:49:26.088+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py took 0.057 seconds
+[2024-07-12T01:49:56.938+0530] {processor.py:161} INFO - Started process (PID=38330) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:49:56.939+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py for tasks to queue
+[2024-07-12T01:49:56.941+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:56.941+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:49:56.960+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:56.959+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py", line 13, in <module>
+    from models.raw_models.raw_load_fixed_deposits import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'models'
+[2024-07-12T01:49:56.961+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:49:56.980+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py took 0.049 seconds
+[2024-07-12T01:50:27.651+0530] {processor.py:161} INFO - Started process (PID=38739) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:50:27.652+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py for tasks to queue
+[2024-07-12T01:50:27.655+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:27.655+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:50:27.677+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:27.676+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py", line 13, in <module>
+    from models.raw_models.raw_load_fixed_deposits import create_tables,tuncate_table,insert_table
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/models/raw_models/raw_load_fixed_deposits.py", line 6, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-07-12T01:50:27.678+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:50:27.696+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py took 0.056 seconds
+[2024-07-12T01:50:57.857+0530] {processor.py:161} INFO - Started process (PID=39179) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:50:57.858+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py for tasks to queue
+[2024-07-12T01:50:57.860+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:57.859+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:50:57.880+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:57.879+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py", line 13, in <module>
+    from models.raw_models.raw_load_fixed_deposits import create_tables,tuncate_table,insert_table
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/models/raw_models/raw_load_fixed_deposits.py", line 6, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-07-12T01:50:57.881+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:50:57.900+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py took 0.051 seconds
+[2024-07-12T01:51:27.961+0530] {processor.py:161} INFO - Started process (PID=39576) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:51:27.962+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py for tasks to queue
+[2024-07-12T01:51:27.966+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:27.965+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:51:27.989+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:27.987+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py", line 13, in <module>
+    from models.raw_models.raw_load_fixed_deposits import create_tables,tuncate_table,insert_table
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/models/raw_models/raw_load_fixed_deposits.py", line 6, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-07-12T01:51:27.989+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:51:28.009+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py took 0.069 seconds
+[2024-07-12T01:51:58.102+0530] {processor.py:161} INFO - Started process (PID=40151) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:51:58.107+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py for tasks to queue
+[2024-07-12T01:51:58.109+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:58.109+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:51:58.730+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:58.728+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:51:58.742+0530] {processor.py:840} INFO - DAG(s) 'raw_load_fixed_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:51:58.905+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:58.905+0530] {override.py:1847} INFO - Created Permission View: can delete on DAG:raw_load_fixed_deposits
+[2024-07-12T01:51:58.924+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:58.923+0530] {override.py:1847} INFO - Created Permission View: can read on DAG:raw_load_fixed_deposits
+[2024-07-12T01:51:58.938+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:58.938+0530] {override.py:1847} INFO - Created Permission View: can edit on DAG:raw_load_fixed_deposits
+[2024-07-12T01:51:58.939+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:58.939+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:51:59.213+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:59.212+0530] {dag.py:3118} INFO - Creating ORM DAG for raw_load_fixed_deposits
+[2024-07-12T01:51:59.218+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:59.213+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_fixed_deposits to None, run_after=None
+[2024-07-12T01:51:59.266+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py took 1.177 seconds
+[2024-07-12T01:52:29.804+0530] {processor.py:161} INFO - Started process (PID=40851) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:52:29.805+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py for tasks to queue
+[2024-07-12T01:52:29.807+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:29.807+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:52:30.137+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:30.137+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:52:30.141+0530] {processor.py:840} INFO - DAG(s) 'raw_load_fixed_deposits' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py
+[2024-07-12T01:52:30.234+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:30.234+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:52:30.243+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:30.243+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_fixed_deposits to None, run_after=None
+[2024-07-12T01:52:30.382+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_fixed_deposits.py took 0.598 seconds

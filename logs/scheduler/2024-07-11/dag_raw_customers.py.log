@@ -1,0 +1,144 @@
+[2024-07-12T01:47:49.340+0530] {processor.py:161} INFO - Started process (PID=36661) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:47:49.340+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py for tasks to queue
+[2024-07-12T01:47:49.342+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:47:49.342+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:47:49.359+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:47:49.358+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py", line 13, in <module>
+    from scripts.raw_load_customers import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'scripts'
+[2024-07-12T01:47:49.360+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:47:49.376+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py took 0.043 seconds
+[2024-07-12T01:48:19.608+0530] {processor.py:161} INFO - Started process (PID=37123) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:48:19.609+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py for tasks to queue
+[2024-07-12T01:48:19.610+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:19.610+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:48:19.629+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:19.628+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py", line 13, in <module>
+    from scripts.raw_load_customers import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'scripts'
+[2024-07-12T01:48:19.630+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:48:19.647+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py took 0.046 seconds
+[2024-07-12T01:48:51.213+0530] {processor.py:161} INFO - Started process (PID=37506) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:48:51.214+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py for tasks to queue
+[2024-07-12T01:48:51.215+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:51.215+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:48:51.232+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:51.231+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py", line 13, in <module>
+    from scripts.raw_load_customers import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'scripts'
+[2024-07-12T01:48:51.233+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:48:51.250+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py took 0.044 seconds
+[2024-07-12T01:48:56.007+0530] {processor.py:161} INFO - Started process (PID=37569) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:48:56.008+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py for tasks to queue
+[2024-07-12T01:48:56.010+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:56.009+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:48:56.032+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:56.031+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py", line 13, in <module>
+    from models.raw_models.raw_load_customers import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'models'
+[2024-07-12T01:48:56.032+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:48:56.056+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py took 0.056 seconds
+[2024-07-12T01:49:26.445+0530] {processor.py:161} INFO - Started process (PID=38020) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:49:26.446+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py for tasks to queue
+[2024-07-12T01:49:26.448+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:26.447+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:49:26.466+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:26.465+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py", line 13, in <module>
+    from models.raw_models.raw_load_customers import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'models'
+[2024-07-12T01:49:26.467+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:49:26.485+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py took 0.047 seconds
+[2024-07-12T01:49:57.367+0530] {processor.py:161} INFO - Started process (PID=38340) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:49:57.368+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py for tasks to queue
+[2024-07-12T01:49:57.369+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:57.369+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:49:57.386+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:57.385+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py", line 13, in <module>
+    from models.raw_models.raw_load_customers import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'models'
+[2024-07-12T01:49:57.387+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:49:57.404+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py took 0.044 seconds
+[2024-07-12T01:50:28.108+0530] {processor.py:161} INFO - Started process (PID=38765) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:50:28.109+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py for tasks to queue
+[2024-07-12T01:50:28.110+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:28.110+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:50:28.129+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:28.127+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py", line 13, in <module>
+    from models.raw_models.raw_load_customers import create_tables,tuncate_table,insert_table
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/models/raw_models/raw_load_customers.py", line 6, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-07-12T01:50:28.129+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:50:28.150+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py took 0.049 seconds
+[2024-07-12T01:50:58.334+0530] {processor.py:161} INFO - Started process (PID=39189) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:50:58.335+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py for tasks to queue
+[2024-07-12T01:50:58.337+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:58.336+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:50:58.363+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:58.361+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py", line 13, in <module>
+    from models.raw_models.raw_load_customers import create_tables,tuncate_table,insert_table
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/models/raw_models/raw_load_customers.py", line 6, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-07-12T01:50:58.364+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:50:58.388+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py took 0.061 seconds
+[2024-07-12T01:51:28.467+0530] {processor.py:161} INFO - Started process (PID=39596) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:51:28.467+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py for tasks to queue
+[2024-07-12T01:51:28.469+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:28.469+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:51:28.486+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:28.484+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py", line 13, in <module>
+    from models.raw_models.raw_load_customers import create_tables,tuncate_table,insert_table
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/models/raw_models/raw_load_customers.py", line 6, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-07-12T01:51:28.486+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:51:28.504+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py took 0.044 seconds
+[2024-07-12T01:52:04.390+0530] {processor.py:161} INFO - Started process (PID=40339) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:52:04.391+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py for tasks to queue
+[2024-07-12T01:52:04.392+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:04.392+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:52:04.834+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:04.833+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:52:04.838+0530] {processor.py:840} INFO - DAG(s) 'raw_load_customers' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py
+[2024-07-12T01:52:04.937+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:04.936+0530] {override.py:1847} INFO - Created Permission View: can delete on DAG:raw_load_customers
+[2024-07-12T01:52:04.954+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:04.954+0530] {override.py:1847} INFO - Created Permission View: can read on DAG:raw_load_customers
+[2024-07-12T01:52:04.965+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:04.965+0530] {override.py:1847} INFO - Created Permission View: can edit on DAG:raw_load_customers
+[2024-07-12T01:52:04.966+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:04.965+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:52:04.977+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:04.976+0530] {dag.py:3118} INFO - Creating ORM DAG for raw_load_customers
+[2024-07-12T01:52:04.978+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:04.977+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_customers to None, run_after=None
+[2024-07-12T01:52:05.005+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_customers.py took 0.624 seconds

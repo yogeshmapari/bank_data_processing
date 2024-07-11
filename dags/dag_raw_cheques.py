@@ -10,7 +10,7 @@ from airflow.hooks.mysql_hook import MySqlHook
 from airflow.operators.python_operator import PythonOperator
 from airflow.utils.dates import days_ago
 from datetime import datetime
-from scripts.raw_load_cheques import create_tables,tuncate_table,insert_table
+from models.raw_models.raw_load_cheques import create_tables,tuncate_table,insert_table
 # Airflow DAG definition
 default_args =  {
     'owner': 'airflow',

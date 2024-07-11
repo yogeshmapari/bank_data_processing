@@ -1,0 +1,110 @@
+[2024-07-12T01:47:46.716+0530] {processor.py:161} INFO - Started process (PID=36574) to work on /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:47:46.717+0530] {processor.py:830} INFO - Processing file /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-07-12T01:47:46.718+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:47:46.718+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:47:46.721+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:47:46.720+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-07-12T01:47:46.721+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:47:46.721+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-07-12T01:47:46.721+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:47:46.732+0530] {processor.py:183} INFO - Processing /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2024-07-12T01:48:17.725+0530] {processor.py:161} INFO - Started process (PID=37073) to work on /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:48:17.726+0530] {processor.py:830} INFO - Processing file /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-07-12T01:48:17.728+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:17.727+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:48:17.732+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:17.730+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-07-12T01:48:17.732+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:17.732+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-07-12T01:48:17.733+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:48:17.745+0530] {processor.py:183} INFO - Processing /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.026 seconds
+[2024-07-12T01:48:48.548+0530] {processor.py:161} INFO - Started process (PID=37456) to work on /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:48:48.549+0530] {processor.py:830} INFO - Processing file /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-07-12T01:48:48.551+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:48.551+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:48:48.554+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:48.553+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-07-12T01:48:48.554+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:48.554+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-07-12T01:48:48.555+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:48:48.567+0530] {processor.py:183} INFO - Processing /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2024-07-12T01:49:19.651+0530] {processor.py:161} INFO - Started process (PID=37930) to work on /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:49:19.652+0530] {processor.py:830} INFO - Processing file /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-07-12T01:49:19.656+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:19.655+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:49:19.662+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:19.660+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-07-12T01:49:19.664+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:19.664+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-07-12T01:49:19.665+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:49:19.680+0530] {processor.py:183} INFO - Processing /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.040 seconds
+[2024-07-12T01:49:50.556+0530] {processor.py:161} INFO - Started process (PID=38258) to work on /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:49:50.557+0530] {processor.py:830} INFO - Processing file /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-07-12T01:49:50.558+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:50.558+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:49:50.561+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:50.560+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-07-12T01:49:50.561+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:50.561+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-07-12T01:49:50.562+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:49:50.574+0530] {processor.py:183} INFO - Processing /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.025 seconds
+[2024-07-12T01:50:21.073+0530] {processor.py:161} INFO - Started process (PID=38623) to work on /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:50:21.074+0530] {processor.py:830} INFO - Processing file /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-07-12T01:50:21.076+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:21.075+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:50:21.080+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:21.079+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-07-12T01:50:21.080+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:21.080+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-07-12T01:50:21.080+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:50:21.097+0530] {processor.py:183} INFO - Processing /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.031 seconds
+[2024-07-12T01:50:51.385+0530] {processor.py:161} INFO - Started process (PID=39039) to work on /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:50:51.386+0530] {processor.py:830} INFO - Processing file /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-07-12T01:50:51.388+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:51.388+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:50:51.391+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:51.391+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-07-12T01:50:51.392+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:51.392+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-07-12T01:50:51.392+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:50:51.406+0530] {processor.py:183} INFO - Processing /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.027 seconds
+[2024-07-12T01:51:21.556+0530] {processor.py:161} INFO - Started process (PID=39465) to work on /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:51:21.557+0530] {processor.py:830} INFO - Processing file /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-07-12T01:51:21.559+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:21.558+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:51:21.562+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:21.561+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-07-12T01:51:21.562+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:21.562+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-07-12T01:51:21.563+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:51:21.576+0530] {processor.py:183} INFO - Processing /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.027 seconds
+[2024-07-12T01:51:52.248+0530] {processor.py:161} INFO - Started process (PID=40050) to work on /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:51:52.250+0530] {processor.py:830} INFO - Processing file /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-07-12T01:51:52.255+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:52.255+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:51:52.263+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:52.261+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-07-12T01:51:52.264+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:52.264+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-07-12T01:51:52.265+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:51:52.290+0530] {processor.py:183} INFO - Processing /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.061 seconds
+[2024-07-12T01:52:23.103+0530] {processor.py:161} INFO - Started process (PID=40739) to work on /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:52:23.104+0530] {processor.py:830} INFO - Processing file /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2024-07-12T01:52:23.106+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:23.105+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:52:23.109+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:23.108+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2024-07-12T01:52:23.109+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:23.109+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2024-07-12T01:52:23.109+0530] {processor.py:842} WARNING - No viable dags retrieved from /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2024-07-12T01:52:23.122+0530] {processor.py:183} INFO - Processing /home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.027 seconds

@@ -1,0 +1,144 @@
+[2024-07-12T01:47:49.400+0530] {processor.py:161} INFO - Started process (PID=36663) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:47:49.401+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-12T01:47:49.402+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:47:49.402+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:47:49.426+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:47:49.425+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py", line 13, in <module>
+    from scripts.raw_load_mortgage_applications import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'scripts'
+[2024-07-12T01:47:49.426+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:47:49.447+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.053 seconds
+[2024-07-12T01:48:19.671+0530] {processor.py:161} INFO - Started process (PID=37125) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:48:19.672+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-12T01:48:19.674+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:19.674+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:48:19.691+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:19.690+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py", line 13, in <module>
+    from scripts.raw_load_mortgage_applications import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'scripts'
+[2024-07-12T01:48:19.691+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:48:19.710+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.045 seconds
+[2024-07-12T01:48:51.275+0530] {processor.py:161} INFO - Started process (PID=37516) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:48:51.276+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-12T01:48:51.278+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:51.278+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:48:51.294+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:51.293+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py", line 13, in <module>
+    from scripts.raw_load_mortgage_applications import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'scripts'
+[2024-07-12T01:48:51.294+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:48:51.311+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.043 seconds
+[2024-07-12T01:48:56.089+0530] {processor.py:161} INFO - Started process (PID=37571) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:48:56.090+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-12T01:48:56.092+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:56.092+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:48:56.114+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:56.113+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py", line 13, in <module>
+    from models.raw_models.raw_load_mortgage_applications import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'models'
+[2024-07-12T01:48:56.115+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:48:56.140+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.061 seconds
+[2024-07-12T01:49:26.511+0530] {processor.py:161} INFO - Started process (PID=38022) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:49:26.513+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-12T01:49:26.514+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:26.514+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:49:26.534+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:26.532+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py", line 13, in <module>
+    from models.raw_models.raw_load_mortgage_applications import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'models'
+[2024-07-12T01:49:26.534+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:49:26.554+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.049 seconds
+[2024-07-12T01:49:57.432+0530] {processor.py:161} INFO - Started process (PID=38350) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:49:57.433+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-12T01:49:57.435+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:57.434+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:49:57.452+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:57.451+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py", line 13, in <module>
+    from models.raw_models.raw_load_mortgage_applications import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'models'
+[2024-07-12T01:49:57.453+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:49:57.470+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.045 seconds
+[2024-07-12T01:50:28.177+0530] {processor.py:161} INFO - Started process (PID=38767) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:50:28.178+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-12T01:50:28.180+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:28.179+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:50:28.199+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:28.197+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py", line 13, in <module>
+    from models.raw_models.raw_load_mortgage_applications import create_tables,tuncate_table,insert_table
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/models/raw_models/raw_load_mortgage_applications.py", line 6, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-07-12T01:50:28.200+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:50:28.218+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.047 seconds
+[2024-07-12T01:50:58.471+0530] {processor.py:161} INFO - Started process (PID=39192) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:50:58.472+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-12T01:50:58.474+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:58.474+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:50:58.494+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:58.492+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py", line 13, in <module>
+    from models.raw_models.raw_load_mortgage_applications import create_tables,tuncate_table,insert_table
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/models/raw_models/raw_load_mortgage_applications.py", line 6, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-07-12T01:50:58.495+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:50:58.514+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.050 seconds
+[2024-07-12T01:51:28.545+0530] {processor.py:161} INFO - Started process (PID=39606) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:51:28.546+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-12T01:51:28.548+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:28.548+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:51:28.568+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:28.567+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py", line 13, in <module>
+    from models.raw_models.raw_load_mortgage_applications import create_tables,tuncate_table,insert_table
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/models/raw_models/raw_load_mortgage_applications.py", line 6, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-07-12T01:51:28.569+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:51:28.587+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.050 seconds
+[2024-07-12T01:52:05.050+0530] {processor.py:161} INFO - Started process (PID=40363) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:52:05.051+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-12T01:52:05.053+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:05.053+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:52:05.580+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:05.580+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:52:05.586+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-12T01:52:05.721+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:05.720+0530] {override.py:1847} INFO - Created Permission View: can delete on DAG:raw_load_mortgage_applications
+[2024-07-12T01:52:05.739+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:05.738+0530] {override.py:1847} INFO - Created Permission View: can read on DAG:raw_load_mortgage_applications
+[2024-07-12T01:52:05.751+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:05.751+0530] {override.py:1847} INFO - Created Permission View: can edit on DAG:raw_load_mortgage_applications
+[2024-07-12T01:52:05.752+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:05.752+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:52:05.766+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:05.766+0530] {dag.py:3118} INFO - Creating ORM DAG for raw_load_mortgage_applications
+[2024-07-12T01:52:05.767+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:05.767+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-12T01:52:05.802+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.766 seconds

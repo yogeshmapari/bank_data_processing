@@ -1,0 +1,144 @@
+[2024-07-12T01:47:49.623+0530] {processor.py:161} INFO - Started process (PID=36684) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:47:49.624+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py for tasks to queue
+[2024-07-12T01:47:49.626+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:47:49.626+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:47:49.658+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:47:49.656+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py", line 13, in <module>
+    from scripts.raw_load_cheques import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'scripts'
+[2024-07-12T01:47:49.659+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:47:49.683+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py took 0.069 seconds
+[2024-07-12T01:48:19.870+0530] {processor.py:161} INFO - Started process (PID=37131) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:48:19.871+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py for tasks to queue
+[2024-07-12T01:48:19.873+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:19.872+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:48:19.889+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:19.888+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py", line 13, in <module>
+    from scripts.raw_load_cheques import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'scripts'
+[2024-07-12T01:48:19.890+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:48:19.905+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py took 0.042 seconds
+[2024-07-12T01:48:51.521+0530] {processor.py:161} INFO - Started process (PID=37522) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:48:51.522+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py for tasks to queue
+[2024-07-12T01:48:51.524+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:51.523+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:48:51.539+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:51.538+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py", line 13, in <module>
+    from scripts.raw_load_cheques import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'scripts'
+[2024-07-12T01:48:51.540+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:48:51.557+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py took 0.042 seconds
+[2024-07-12T01:48:56.372+0530] {processor.py:161} INFO - Started process (PID=37585) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:48:56.373+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py for tasks to queue
+[2024-07-12T01:48:56.375+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:56.375+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:48:56.399+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:48:56.398+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py", line 13, in <module>
+    from models.raw_models.raw_load_cheques import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'models'
+[2024-07-12T01:48:56.400+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:48:56.428+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py took 0.067 seconds
+[2024-07-12T01:49:26.715+0530] {processor.py:161} INFO - Started process (PID=38028) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:49:26.715+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py for tasks to queue
+[2024-07-12T01:49:26.718+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:26.717+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:49:26.735+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:26.734+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py", line 13, in <module>
+    from models.raw_models.raw_load_cheques import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'models'
+[2024-07-12T01:49:26.736+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:49:26.759+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py took 0.051 seconds
+[2024-07-12T01:49:57.671+0530] {processor.py:161} INFO - Started process (PID=38356) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:49:57.672+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py for tasks to queue
+[2024-07-12T01:49:57.674+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:57.673+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:49:57.692+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:49:57.691+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py", line 13, in <module>
+    from models.raw_models.raw_load_cheques import create_tables,tuncate_table,insert_table
+ModuleNotFoundError: No module named 'models'
+[2024-07-12T01:49:57.692+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:49:57.709+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py took 0.044 seconds
+[2024-07-12T01:50:28.386+0530] {processor.py:161} INFO - Started process (PID=38773) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:50:28.386+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py for tasks to queue
+[2024-07-12T01:50:28.388+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:28.388+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:50:28.408+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:28.407+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py", line 13, in <module>
+    from models.raw_models.raw_load_cheques import create_tables,tuncate_table,insert_table
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/models/raw_models/raw_load_cheques.py", line 6, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-07-12T01:50:28.408+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:50:28.426+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py took 0.047 seconds
+[2024-07-12T01:50:58.753+0530] {processor.py:161} INFO - Started process (PID=39205) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:50:58.754+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py for tasks to queue
+[2024-07-12T01:50:58.756+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:58.756+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:50:58.785+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:50:58.783+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py", line 13, in <module>
+    from models.raw_models.raw_load_cheques import create_tables,tuncate_table,insert_table
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/models/raw_models/raw_load_cheques.py", line 6, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-07-12T01:50:58.785+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:50:58.814+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py took 0.069 seconds
+[2024-07-12T01:51:29.826+0530] {processor.py:161} INFO - Started process (PID=39630) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:51:29.827+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py for tasks to queue
+[2024-07-12T01:51:29.829+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:29.828+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:51:29.850+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:51:29.848+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py", line 13, in <module>
+    from models.raw_models.raw_load_cheques import create_tables,tuncate_table,insert_table
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/models/raw_models/raw_load_cheques.py", line 6, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2024-07-12T01:51:29.850+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:51:29.868+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py took 0.049 seconds
+[2024-07-12T01:52:07.773+0530] {processor.py:161} INFO - Started process (PID=40465) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:52:07.775+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py for tasks to queue
+[2024-07-12T01:52:07.780+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:07.779+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:52:08.551+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:08.550+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-12T01:52:08.558+0530] {processor.py:840} INFO - DAG(s) 'raw_load_cheques' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py
+[2024-07-12T01:52:08.718+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:08.717+0530] {override.py:1847} INFO - Created Permission View: can delete on DAG:raw_load_cheques
+[2024-07-12T01:52:08.738+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:08.737+0530] {override.py:1847} INFO - Created Permission View: can read on DAG:raw_load_cheques
+[2024-07-12T01:52:08.752+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:08.752+0530] {override.py:1847} INFO - Created Permission View: can edit on DAG:raw_load_cheques
+[2024-07-12T01:52:08.753+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:08.752+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-12T01:52:08.768+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:08.768+0530] {dag.py:3118} INFO - Creating ORM DAG for raw_load_cheques
+[2024-07-12T01:52:08.769+0530] {logging_mixin.py:188} INFO - [2024-07-12T01:52:08.769+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_cheques to None, run_after=None
+[2024-07-12T01:52:08.803+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_cheques.py took 1.047 seconds

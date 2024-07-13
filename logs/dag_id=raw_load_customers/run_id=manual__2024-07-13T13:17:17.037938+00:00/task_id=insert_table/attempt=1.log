@@ -1,0 +1,63 @@
+[2024-07-13T18:49:51.349+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-13T18:49:51.501+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: raw_load_customers.insert_table manual__2024-07-13T13:17:17.037938+00:00 [queued]>
+[2024-07-13T18:49:51.514+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: raw_load_customers.insert_table manual__2024-07-13T13:17:17.037938+00:00 [queued]>
+[2024-07-13T18:49:51.515+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-07-13T18:49:51.534+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): insert_table> on 2024-07-13 13:17:17.037938+00:00
+[2024-07-13T18:49:51.541+0530] {standard_task_runner.py:63} INFO - Started process 48149 to run task
+[2024-07-13T18:49:51.546+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'raw_load_customers', 'insert_table', 'manual__2024-07-13T13:17:17.037938+00:00', '--job-id', '1321', '--raw', '--subdir', 'DAGS_FOLDER/dag_raw_customers.py', '--cfg-path', '/tmp/tmpm_jkarva']
+[2024-07-13T18:49:51.549+0530] {standard_task_runner.py:91} INFO - Job 1321: Subtask insert_table
+[2024-07-13T18:49:51.593+0530] {task_command.py:426} INFO - Running <TaskInstance: raw_load_customers.insert_table manual__2024-07-13T13:17:17.037938+00:00 [running]> on host kali
+[2024-07-13T18:49:51.715+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='raw_load_customers' AIRFLOW_CTX_TASK_ID='insert_table' AIRFLOW_CTX_EXECUTION_DATE='2024-07-13T13:17:17.037938+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-13T13:17:17.037938+00:00'
+[2024-07-13T18:49:51.716+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-13T18:49:51.752+0530] {logging_mixin.py:188} INFO - customer_id`,`name`,`address`,`phone`,`email`,`dob`,`ingetion_timestamp
+[2024-07-13T18:49:51.754+0530] {logging_mixin.py:188} INFO - ('b0fb40fb-1895-4033-9502-aecb5267546b', 'Jessica Anderson', '49628 Joseph Roads\nNorth Spencerland, PR 14799', '(414)321-6412', 'jlopez@example.net', '1990-09-07', Timestamp('2024-07-13 18:49:51.750683'))
+[2024-07-13T18:49:51.756+0530] {logging_mixin.py:188} INFO - ('44ae3fc5-8805-4a83-af77-bb7d2b05192b', 'Arthur Davis', '21998 Terri Hills\nPattonberg, NV 39139', '4527431199', 'zmoore@example.com', '2000-10-14', Timestamp('2024-07-13 18:49:51.750683'))
+[2024-07-13T18:49:51.756+0530] {logging_mixin.py:188} INFO - ('57133411-6b41-4812-a944-dc705c076a81', 'Pamela Gibson', '492 Estrada Freeway\nGarzastad, PR 03168', '8494917711', 'davidknight@example.com', '1960-04-22', Timestamp('2024-07-13 18:49:51.750683'))
+[2024-07-13T18:49:51.757+0530] {logging_mixin.py:188} INFO - ('b515d9d8-59fe-4598-aa70-700f2aef64d3', 'Kristen Pittman', '756 Brown Wall Suite 047\nWilliamville, IN 17819', '001-626-711-5801', 'caroline48@example.net', '1952-11-07', Timestamp('2024-07-13 18:49:51.750683'))
+[2024-07-13T18:49:51.758+0530] {logging_mixin.py:188} INFO - ('dfe2c511-5722-4b3d-a123-d824bba7ebab', 'Mr. Todd Campbell PhD', '668 Wright Mountains Apt. 938\nMichelleshire, UT 41128', '(253)770-9864x4505', 'stacycochran@example.net', '1995-06-05', Timestamp('2024-07-13 18:49:51.750683'))
+[2024-07-13T18:49:51.760+0530] {logging_mixin.py:188} INFO - ('52039f4f-a932-4287-9431-807b823afa34', 'Stephanie Malone', '2923 White Brooks\nNorth Christopherhaven, MI 09774', '233.372.3085x04922', 'averynancy@example.org', '1939-02-06', Timestamp('2024-07-13 18:49:51.750683'))
+[2024-07-13T18:49:51.763+0530] {logging_mixin.py:188} INFO - ('eed8c86e-46ae-4e2f-98b8-eaf7c2eaf45b', 'Adam Nguyen', '4286 Moreno Fall\nJoshuamouth, IL 74848', '(485)935-3303', 'jlittle@example.org', '1982-11-13', Timestamp('2024-07-13 18:49:51.750683'))
+[2024-07-13T18:49:51.765+0530] {logging_mixin.py:188} INFO - ('92ae48f7-2b28-473f-99ff-dfbdcf4313c1', 'Dustin Phillips', '18997 Erickson Plains\nLake Anthony, SC 52514', '2478200894', 'austin98@example.com', '2003-01-16', Timestamp('2024-07-13 18:49:51.750683'))
+[2024-07-13T18:49:51.766+0530] {logging_mixin.py:188} INFO - ('68397b18-9584-4afe-abc9-028914f18f78', 'Becky Palmer', '2830 Martinez Landing Apt. 938\nCookburgh, WA 35584', '(944)875-4464x659', 'sarahmcpherson@example.org', '1995-03-14', Timestamp('2024-07-13 18:49:51.750683'))
+[2024-07-13T18:49:51.767+0530] {logging_mixin.py:188} INFO - ('f687581f-deea-42dd-a2fe-c93db85edb2b', 'Lisa Mosley', 'USCGC Ross\nFPO AP 84736', '4482354179', 'tdavis@example.net', '1983-04-25', Timestamp('2024-07-13 18:49:51.750683'))
+[2024-07-13T18:49:51.767+0530] {logging_mixin.py:188} INFO - ('df6cf01d-9bea-4389-aac9-6a5556f7768e', 'Alvin Miller', 'Unit 3261 Box 9898\nDPO AA 96787', '(666)534-3111', 'fjoseph@example.com', '1950-08-08', Timestamp('2024-07-13 18:49:51.750683'))
+[2024-07-13T18:49:51.768+0530] {logging_mixin.py:188} INFO - ('2a7f5b0b-44bc-4115-be09-cd9cde2adeb7', 'Sharon Richardson', '4414 Miller Pine Apt. 800\nPowellside, WI 90448', '001-843-560-7865x782', 'velazqueztony@example.org', '1993-07-29', Timestamp('2024-07-13 18:49:51.750683'))
+[2024-07-13T18:49:51.768+0530] {logging_mixin.py:188} INFO - ('f2556526-341f-490c-8051-42898331fde8', 'Julia Robinson', '6054 Hubbard Burg\nAmandaland, MT 97511', '801-625-3447x3091', 'oneillmichael@example.com', '1965-07-17', Timestamp('2024-07-13 18:49:51.750683'))
+[2024-07-13T18:49:51.769+0530] {logging_mixin.py:188} INFO - ('a1fe0121-9569-44a5-bbfe-23e96961a769', 'Jonathan Graham', '380 Duffy Dam\nNew Wanda, IL 65838', '545.552.8693x70906', 'simmonsstephanie@example.net', '1951-07-07', Timestamp('2024-07-13 18:49:51.750683'))
+[2024-07-13T18:49:51.769+0530] {logging_mixin.py:188} INFO - ('866238ca-8ea6-4b21-86a7-872bcc3e8f96', 'Katherine Melton', '1278 Adrian Trail Apt. 092\nLarryshire, MO 13222', '+1-729-352-3499x0456', 'parkerjared@example.net', '1955-12-10', Timestamp('2024-07-13 18:49:51.750683'))
+[2024-07-13T18:49:51.770+0530] {logging_mixin.py:188} INFO - ('e09f16f5-036a-4932-b62d-f325b07b67ad', 'Paul Silva', 'Unit 6572 Box 8509\nDPO AA 01504', '001-504-400-0017x48566', 'iward@example.com', '1971-04-06', Timestamp('2024-07-13 18:49:51.750683'))
+[2024-07-13T18:49:51.770+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-13T18:49:51.771+0530] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/models/raw_models/raw_load_customers.py", line 55, in insert_table
+    load_csv_to_mysql(csv_file, table_name)
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/models/raw_models/raw_load_customers.py", line 49, in load_csv_to_mysql
+    cursor.execute(sql, tuple(row))
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/MySQLdb/connections.py", line 261, in query
+    _mysql.connection.query(self, query)
+MySQLdb.DataError: (1406, "Data too long for column 'phone' at row 1")
+[2024-07-13T18:49:51.781+0530] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=raw_load_customers, task_id=insert_table, run_id=manual__2024-07-13T13:17:17.037938+00:00, execution_date=20240713T131717, start_date=20240713T131951, end_date=20240713T131951
+[2024-07-13T18:49:51.792+0530] {standard_task_runner.py:110} ERROR - Failed to execute job 1321 for task insert_table ((1406, "Data too long for column 'phone' at row 1"); 48149)
+[2024-07-13T18:49:51.840+0530] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-07-13T18:49:51.857+0530] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-13T18:49:51.858+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

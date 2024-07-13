@@ -1,0 +1,19 @@
+[2024-07-13T18:00:56.577+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-13T18:00:56.616+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: parent_dag.trigger_raw_load_accounts manual__2024-07-11T20:36:59.640614+00:00 [queued]>
+[2024-07-13T18:00:56.626+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: parent_dag.trigger_raw_load_accounts manual__2024-07-11T20:36:59.640614+00:00 [queued]>
+[2024-07-13T18:00:56.627+0530] {taskinstance.py:2306} INFO - Starting attempt 7 of 6
+[2024-07-13T18:00:56.645+0530] {taskinstance.py:2330} INFO - Executing <Task(TriggerDagRunOperator): trigger_raw_load_accounts> on 2024-07-11 20:36:59.640614+00:00
+[2024-07-13T18:00:56.651+0530] {standard_task_runner.py:63} INFO - Started process 10399 to run task
+[2024-07-13T18:00:56.655+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'parent_dag', 'trigger_raw_load_accounts', 'manual__2024-07-11T20:36:59.640614+00:00', '--job-id', '1204', '--raw', '--subdir', 'DAGS_FOLDER/dag_parent.py', '--cfg-path', '/tmp/tmp7m3hlveg']
+[2024-07-13T18:00:56.657+0530] {standard_task_runner.py:91} INFO - Job 1204: Subtask trigger_raw_load_accounts
+[2024-07-13T18:00:56.699+0530] {task_command.py:426} INFO - Running <TaskInstance: parent_dag.trigger_raw_load_accounts manual__2024-07-11T20:36:59.640614+00:00 [running]> on host kali
+[2024-07-13T18:00:56.842+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='parent_dag' AIRFLOW_CTX_TASK_ID='trigger_raw_load_accounts' AIRFLOW_CTX_EXECUTION_DATE='2024-07-11T20:36:59.640614+00:00' AIRFLOW_CTX_TRY_NUMBER='7' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-11T20:36:59.640614+00:00'
+[2024-07-13T18:00:56.844+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-13T18:00:56.943+0530] {trigger_dagrun.py:222} INFO - Waiting for raw_load_accounts on 2024-07-13 12:30:56.849766+00:00 to become allowed state ['success'] ...
+[2024-07-13T18:01:06.795+0530] {local_task_job_runner.py:310} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2024-07-13T18:01:06.797+0530] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-07-13T18:01:06.820+0530] {process_utils.py:132} INFO - Sending 15 to group 10399. PIDs of all processes in the group: [10399]
+[2024-07-13T18:01:06.822+0530] {process_utils.py:87} INFO - Sending the signal 15 to group 10399
+[2024-07-13T18:01:06.824+0530] {taskinstance.py:2611} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-07-13T18:01:06.825+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-13T18:01:06.919+0530] {process_utils.py:80} INFO - Process psutil.Process(pid=10399, status='terminated', exitcode=0, started='18:00:56') (10399) terminated with exit code 0

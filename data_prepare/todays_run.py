@@ -84,7 +84,7 @@ df_branches=generate_data(
 )
 
 # Generate Employees data for today
-generate_data(
+df_employees=generate_data(
     num_employees,
     ['employee_id', 'branch_id', 'name', 'position', 'salary', 'hire_date'],
     lambda date: [fake.uuid4(), random.choice(df_branches['branch_id']), fake.name(), random.choice(['teller', 'manager', 'customer service', 'security']), round(random.uniform(30000, 120000), 2), fake.date_between(start_date=date, end_date=date + timedelta(days=1))],

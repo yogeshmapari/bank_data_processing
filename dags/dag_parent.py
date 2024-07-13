@@ -1,25 +1,7 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.dagrun_operator import TriggerDagRunOperator
-from airflow.operators.subdag import SubDagOperator
-from airflow.utils.task_group import TaskGroup
 
-# Define a function to import tasks from child DAGs
-def import_tasks_from_child_dag(parent_dag, child_dag_id, task_id_prefix):
-    # Import the child DAG module
-    import importlib.util
-    spec = importlib.util.spec_from_file_location(child_dag_id, f"/path/to/{child_dag_id}.py")
-    child_dag_module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(child_dag_module)
-
-    # Retrieve the tasks from the child DAG
-    tasks = child_dag_module.tasks
-
-    # Add tasks to the parent DAG
-    for task_id, task_instance in tasks.items():
-        parent_dag.add_task(task_instance)
-
-# Default arguments for DAGs
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
@@ -77,16 +59,18 @@ with DAG('parent_dag',
         trigger_tasks[i] >> trigger_tasks[i + 1]
 
     # Set the parent DAG's task dependencies
-    dag  # Start the sequence with the first child DAG
+    dag   # Start the sequence with the first child DAG
 
-    # Import tasks from each child DAG as sub-tasks within the parent DAG
+    # Import each child DAG as a sub-DAG within the parent DAG
     for child_dag_id in child_dags:
-        # Use a TaskGroup to group tasks from each child DAG under a common group
-        with TaskGroup(group_id=f'task_group_{child_dag_id}', dag=dag) as tg:
-            # Import tasks from the child DAG
-            import_tasks_from_child_dag(tg, child_dag_id, task_id_prefix=f'{child_dag_id}_')
+        globals()[child_dag_id] = DAG(
+            dag_id=child_dag_id,
+            default_args=default_args,
+            schedule_interval=None,  # Disable scheduling for this example
+            catchup=False,  # Ensure tasks run only once
+        )
 
-            # Optionally, define dependencies or additional logic within each TaskGroup
+        # Optionally, you can set up dependencies between child DAGs or define additional tasks
 
-        # Optionally, define dependencies between child DAGs or perform additional operations
-
+        # Link the child DAGs to the parent DAG
+        dag 

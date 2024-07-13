@@ -1,0 +1,1 @@
+[2024-07-13T19:09:01.752+0530] {scheduler_job_runner.py:769} ERROR - Executor reports task instance <TaskInstance: raw_load_investments.create_table manual__2024-07-13T13:18:04.951746+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

@@ -1,0 +1,19 @@
+[2024-07-13T19:09:15.351+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-13T19:09:15.510+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: raw_load_service_charges.insert_table manual__2024-07-13T13:18:42.480170+00:00 [queued]>
+[2024-07-13T19:09:15.522+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: raw_load_service_charges.insert_table manual__2024-07-13T13:18:42.480170+00:00 [queued]>
+[2024-07-13T19:09:15.522+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-07-13T19:09:15.540+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): insert_table> on 2024-07-13 13:18:42.480170+00:00
+[2024-07-13T19:09:15.546+0530] {standard_task_runner.py:63} INFO - Started process 68265 to run task
+[2024-07-13T19:09:15.550+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'raw_load_service_charges', 'insert_table', 'manual__2024-07-13T13:18:42.480170+00:00', '--job-id', '1355', '--raw', '--subdir', 'DAGS_FOLDER/dag_raw_service_charges.py', '--cfg-path', '/tmp/tmpxb4tuwv_']
+[2024-07-13T19:09:15.554+0530] {standard_task_runner.py:91} INFO - Job 1355: Subtask insert_table
+[2024-07-13T19:09:15.601+0530] {task_command.py:426} INFO - Running <TaskInstance: raw_load_service_charges.insert_table manual__2024-07-13T13:18:42.480170+00:00 [running]> on host kali
+[2024-07-13T19:09:15.691+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='raw_load_service_charges' AIRFLOW_CTX_TASK_ID='insert_table' AIRFLOW_CTX_EXECUTION_DATE='2024-07-13T13:18:42.480170+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-13T13:18:42.480170+00:00'
+[2024-07-13T19:09:15.692+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-13T19:09:15.709+0530] {logging_mixin.py:188} INFO - File not found: /home/kali/Desktop/projects/banking _project/data_prepare/service_charges_today.csv
+[2024-07-13T19:09:15.709+0530] {logging_mixin.py:188} INFO - All CSV files have been loaded into MySQL tables.
+[2024-07-13T19:09:15.709+0530] {python.py:237} INFO - Done. Returned value was: None
+[2024-07-13T19:09:15.710+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-13T19:09:15.716+0530] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=raw_load_service_charges, task_id=insert_table, run_id=manual__2024-07-13T13:18:42.480170+00:00, execution_date=20240713T131842, start_date=20240713T133915, end_date=20240713T133915
+[2024-07-13T19:09:15.762+0530] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-07-13T19:09:15.796+0530] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-13T19:09:15.797+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

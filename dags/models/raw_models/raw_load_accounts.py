@@ -6,7 +6,8 @@
 import pandas as pd
 import datetime
 #     # List of CSV files and their corresponding table names
- 
+import shutil
+import os
     # Function to create tables if they do not exist
 def create_tables(cursor):
         create_employees_table = """
@@ -30,8 +31,9 @@ def tuncate_table(cursor):
         """
         cursor.execute(tuncate_table)
 
+
 def insert_table(cursor):
-        csv_files = { '/home/kali/Desktop/projects/banking _project/data_prepare/accounts_today.csv': 'accounts' }
+        csv_files = { '/home/kali/Desktop/projects/git/bank_data_processing/data_prepare/accounts_today.csv': 'accounts' }
         def load_csv_to_mysql(csv_file, table_name):
             df = pd.read_csv(csv_file)
             current_timestamp = datetime.datetime.now()
@@ -48,8 +50,22 @@ def insert_table(cursor):
                 cursor.execute(sql, tuple(row))
 
         for csv_file, table_name in csv_files.items():
-            load_csv_to_mysql(csv_file, table_name)
-            print(f"Loaded {csv_file} into {table_name} table")    
+            import shutil
+            import os
+            if os.path.exists(csv_file):
+                load_csv_to_mysql(csv_file, table_name)
+                print(f"Loaded {csv_file} into {table_name} table")
+            
+            # Move the file to the archive folder
+                archive_folder = '/home/kali/Desktop/projects/git/bank_data_processing/archive/'
+                if not os.path.exists(archive_folder):
+                    os.makedirs(archive_folder)
+                shutil.move(csv_file, os.path.join(archive_folder, os.path.basename(f"{csv_file}_{datetime.datetime.now()}")))
+                print(f"Moved {csv_file} to archive folder")
+            else:
+                print(f"File not found: {csv_file}")
+
+
         print("All CSV files have been loaded into MySQL tables.")
 
     # Create tables if they do not exist

@@ -1,0 +1,168 @@
+[2024-07-16T05:16:10.231+0530] {processor.py:161} INFO - Started process (PID=6196) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:16:10.232+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:16:10.234+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:10.234+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:16:10.734+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:10.734+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:16:10.740+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:16:10.743+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:10.742+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:16:10.751+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:10.751+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:16:10.771+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.546 seconds
+[2024-07-16T05:16:42.447+0530] {processor.py:161} INFO - Started process (PID=6736) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:16:42.448+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:16:42.450+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:42.450+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:16:43.313+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:43.313+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:16:43.324+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:16:43.494+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:43.493+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:16:43.506+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:43.506+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:16:43.545+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 1.108 seconds
+[2024-07-16T05:17:14.349+0530] {processor.py:161} INFO - Started process (PID=7218) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:17:14.350+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:17:14.351+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:14.351+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:17:14.893+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:14.892+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:17:14.898+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:17:14.985+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:14.984+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:17:14.992+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:14.992+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:17:15.010+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.668 seconds
+[2024-07-16T05:17:45.764+0530] {processor.py:161} INFO - Started process (PID=7742) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:17:45.767+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:17:45.772+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:45.771+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:17:46.546+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:46.545+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:17:46.554+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:17:46.699+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:46.698+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:17:46.711+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:46.711+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:17:46.748+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.998 seconds
+[2024-07-16T05:18:17.344+0530] {processor.py:161} INFO - Started process (PID=8225) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:18:17.344+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:18:17.346+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:17.346+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:18:17.883+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:17.883+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:18:17.889+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:18:17.971+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:17.970+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:18:17.979+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:17.979+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:18:18.001+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.664 seconds
+[2024-07-16T05:18:48.485+0530] {processor.py:161} INFO - Started process (PID=8737) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:18:48.486+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:18:48.489+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:48.488+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:18:49.132+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:49.131+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:18:49.138+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:18:49.247+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:49.247+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:18:49.256+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:49.255+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:18:49.283+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.806 seconds
+[2024-07-16T05:19:19.683+0530] {processor.py:161} INFO - Started process (PID=9238) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:19:19.684+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:19:19.686+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:19.686+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:19:20.335+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:20.335+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:19:20.344+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:19:20.453+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:20.453+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:19:20.463+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:20.462+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:19:20.494+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.819 seconds
+[2024-07-16T05:19:49.369+0530] {processor.py:161} INFO - Started process (PID=10215) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:19:49.370+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:19:49.372+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:49.371+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:19:49.901+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:49.900+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:19:49.911+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:19:49.915+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:49.914+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:19:49.926+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:49.926+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:19:49.953+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.591 seconds
+[2024-07-16T05:20:21.667+0530] {processor.py:161} INFO - Started process (PID=10804) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:20:21.670+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:20:21.673+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:21.672+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:20:22.289+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:22.288+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:20:22.297+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:20:22.303+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:22.300+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:20:22.314+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:22.314+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:20:22.346+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.686 seconds
+[2024-07-16T05:20:54.089+0530] {processor.py:161} INFO - Started process (PID=11822) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:20:54.090+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:20:54.093+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:54.092+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:20:54.958+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:54.957+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:20:54.971+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:20:55.170+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:55.170+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:20:55.185+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:55.185+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:20:55.220+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 1.143 seconds
+[2024-07-16T05:24:32.248+0530] {processor.py:161} INFO - Started process (PID=15628) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:24:32.249+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:24:32.251+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:24:32.251+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:24:32.846+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:24:32.845+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:24:32.854+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:24:32.858+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:24:32.857+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:24:32.873+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:24:32.872+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:24:32.905+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.663 seconds
+[2024-07-16T05:25:04.158+0530] {processor.py:161} INFO - Started process (PID=16421) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:25:04.159+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:25:04.161+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:04.160+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:25:04.812+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:04.812+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:25:04.826+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:25:04.977+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:04.977+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:25:04.989+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:04.989+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:25:05.029+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.878 seconds
+[2024-07-16T05:25:35.593+0530] {processor.py:161} INFO - Started process (PID=17709) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:25:35.594+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:25:35.595+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:35.595+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:25:36.112+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:36.112+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:25:36.119+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:25:36.219+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:36.219+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:25:36.229+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:36.228+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:25:36.260+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.673 seconds
+[2024-07-16T05:26:06.504+0530] {processor.py:161} INFO - Started process (PID=18555) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:26:06.505+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:26:06.507+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:06.506+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:26:07.186+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:07.185+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:26:07.195+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:26:07.294+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:07.293+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:26:07.302+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:07.301+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:26:07.320+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.822 seconds
+[2024-07-16T05:26:37.669+0530] {processor.py:161} INFO - Started process (PID=19797) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:26:37.673+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:26:37.675+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:37.675+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:26:38.267+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:38.267+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:26:38.276+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:26:38.426+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:38.425+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:26:38.438+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:38.438+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:26:38.465+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.810 seconds
+[2024-07-16T05:27:10.145+0530] {processor.py:161} INFO - Started process (PID=20973) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:27:10.148+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:27:10.150+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:10.149+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:27:10.831+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:10.831+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:27:10.851+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:27:10.952+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:10.952+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:27:10.960+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:10.960+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:27:10.982+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.848 seconds
+[2024-07-16T05:27:41.197+0530] {processor.py:161} INFO - Started process (PID=21737) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:27:41.199+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:27:41.203+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:41.202+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:27:41.953+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:41.952+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:27:41.960+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:27:42.084+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:42.083+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:27:42.097+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:42.097+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:27:42.124+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.936 seconds
+[2024-07-16T05:28:12.831+0530] {processor.py:161} INFO - Started process (PID=22278) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:28:12.832+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:28:12.834+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:12.834+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:28:13.457+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:13.457+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:28:13.464+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:28:13.558+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:13.557+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:28:13.569+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:13.569+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:28:13.609+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.787 seconds
+[2024-07-16T05:28:43.904+0530] {processor.py:161} INFO - Started process (PID=22770) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:28:43.905+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:28:43.907+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:43.907+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:28:44.553+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:44.553+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:28:44.562+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:28:44.730+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:44.729+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:28:44.745+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:44.745+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:28:44.778+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.884 seconds
+[2024-07-16T05:29:15.420+0530] {processor.py:161} INFO - Started process (PID=23379) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:29:15.421+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:29:15.423+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:15.423+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:29:16.097+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:16.097+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:29:16.104+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:29:16.221+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:16.221+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:29:16.232+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:16.232+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:29:16.263+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.850 seconds
+[2024-07-16T05:29:46.422+0530] {processor.py:161} INFO - Started process (PID=24012) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:29:46.423+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py for tasks to queue
+[2024-07-16T05:29:46.425+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:46.425+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:29:47.091+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:47.091+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:29:47.098+0530] {processor.py:840} INFO - DAG(s) 'raw_load_insurance' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py
+[2024-07-16T05:29:47.195+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:47.195+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:29:47.205+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:47.205+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_insurance to None, run_after=None
+[2024-07-16T05:29:47.242+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_insurance.py took 0.829 seconds

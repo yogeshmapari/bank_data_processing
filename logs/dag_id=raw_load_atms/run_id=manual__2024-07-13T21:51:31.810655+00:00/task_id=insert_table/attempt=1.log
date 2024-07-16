@@ -1,0 +1,19 @@
+[2024-07-14T03:21:38.824+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-14T03:21:38.860+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: raw_load_atms.insert_table manual__2024-07-13T21:51:31.810655+00:00 [queued]>
+[2024-07-14T03:21:38.876+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: raw_load_atms.insert_table manual__2024-07-13T21:51:31.810655+00:00 [queued]>
+[2024-07-14T03:21:38.877+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-07-14T03:21:38.895+0530] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): insert_table> on 2024-07-13 21:51:31.810655+00:00
+[2024-07-14T03:21:38.903+0530] {standard_task_runner.py:63} INFO - Started process 42895 to run task
+[2024-07-14T03:21:38.907+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'raw_load_atms', 'insert_table', 'manual__2024-07-13T21:51:31.810655+00:00', '--job-id', '1380', '--raw', '--subdir', 'DAGS_FOLDER/dag_raw_atms.py', '--cfg-path', '/tmp/tmp102_dnnq']
+[2024-07-14T03:21:38.912+0530] {standard_task_runner.py:91} INFO - Job 1380: Subtask insert_table
+[2024-07-14T03:21:38.971+0530] {task_command.py:426} INFO - Running <TaskInstance: raw_load_atms.insert_table manual__2024-07-13T21:51:31.810655+00:00 [running]> on host kali
+[2024-07-14T03:21:39.105+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='raw_load_atms' AIRFLOW_CTX_TASK_ID='insert_table' AIRFLOW_CTX_EXECUTION_DATE='2024-07-13T21:51:31.810655+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-13T21:51:31.810655+00:00'
+[2024-07-14T03:21:39.106+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-14T03:21:39.143+0530] {logging_mixin.py:188} INFO - File not found: /home/kali/Desktop/projects/git/bank_data_processing/data_prepare/atms_today.csv
+[2024-07-14T03:21:39.144+0530] {logging_mixin.py:188} INFO - All CSV files have been loaded into MySQL tables.
+[2024-07-14T03:21:39.144+0530] {python.py:237} INFO - Done. Returned value was: None
+[2024-07-14T03:21:39.146+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-14T03:21:39.161+0530] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=raw_load_atms, task_id=insert_table, run_id=manual__2024-07-13T21:51:31.810655+00:00, execution_date=20240713T215131, start_date=20240713T215138, end_date=20240713T215139
+[2024-07-14T03:21:39.200+0530] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-07-14T03:21:39.226+0530] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-14T03:21:39.227+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

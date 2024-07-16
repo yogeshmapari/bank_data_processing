@@ -1,0 +1,250 @@
+[2024-07-16T05:48:36.387+0530] {processor.py:161} INFO - Started process (PID=49720) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:48:36.388+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:48:36.389+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:48:36.388+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:48:36.404+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:48:36.402+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py", line 13, in <module>
+    f'{path}owner': 'airflow',
+       ^^^^
+NameError: name 'path' is not defined
+[2024-07-16T05:48:36.405+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:48:36.425+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.045 seconds
+[2024-07-16T05:48:45.785+0530] {processor.py:161} INFO - Started process (PID=50332) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:48:45.789+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:48:45.791+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:48:45.790+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:48:45.819+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:48:45.816+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py", line 13, in <module>
+    f'{path}owner': 'airflow',
+       ^^^^
+NameError: name 'path' is not defined
+[2024-07-16T05:48:45.821+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:48:45.856+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.085 seconds
+[2024-07-16T05:49:16.701+0530] {processor.py:161} INFO - Started process (PID=50912) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:49:16.703+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:49:16.705+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:16.704+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:49:16.720+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:16.719+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py", line 13, in <module>
+    f'{path}owner': 'airflow',
+       ^^^^
+NameError: name 'path' is not defined
+[2024-07-16T05:49:16.721+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:49:16.751+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.064 seconds
+[2024-07-16T05:49:31.739+0530] {processor.py:161} INFO - Started process (PID=51241) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:49:31.742+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:49:31.744+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:31.743+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:49:31.762+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:31.760+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py", line 275, in <module>
+    f'{path}dag_prepare_data_historic',
+       ^^^^
+NameError: name 'path' is not defined
+[2024-07-16T05:49:31.762+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:49:31.785+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.055 seconds
+[2024-07-16T05:49:55.345+0530] {processor.py:161} INFO - Started process (PID=51903) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:49:55.347+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:49:55.348+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:55.348+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:49:55.362+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_historic' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:49:55.488+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:55.487+0530] {override.py:1847} INFO - Created Permission View: can delete on DAG:dag_prepare_data_historic
+[2024-07-16T05:49:55.503+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:55.502+0530] {override.py:1847} INFO - Created Permission View: can read on DAG:dag_prepare_data_historic
+[2024-07-16T05:49:55.512+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:55.511+0530] {override.py:1847} INFO - Created Permission View: can edit on DAG:dag_prepare_data_historic
+[2024-07-16T05:49:55.512+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:55.512+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:49:55.525+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:55.525+0530] {dag.py:3118} INFO - Creating ORM DAG for dag_prepare_data_historic
+[2024-07-16T05:49:55.526+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:55.526+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_historic to None, run_after=None
+[2024-07-16T05:49:55.554+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.218 seconds
+[2024-07-16T05:49:58.365+0530] {processor.py:161} INFO - Started process (PID=51983) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:49:58.366+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:49:58.366+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:58.366+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:49:58.380+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_historic' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:49:58.389+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:58.389+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:49:58.401+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:58.401+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_historic to None, run_after=None
+[2024-07-16T05:49:58.419+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.061 seconds
+[2024-07-16T05:50:28.720+0530] {processor.py:161} INFO - Started process (PID=53099) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:50:28.726+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:50:28.727+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:50:28.726+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:50:28.737+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_historic' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:50:28.763+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:50:28.763+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:50:28.774+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:50:28.774+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_historic to None, run_after=None
+[2024-07-16T05:50:28.792+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.080 seconds
+[2024-07-16T05:50:59.430+0530] {processor.py:161} INFO - Started process (PID=53777) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:50:59.435+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:50:59.436+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:50:59.436+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:50:59.445+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_historic' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:50:59.473+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:50:59.473+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:50:59.488+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:50:59.488+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_historic to None, run_after=None
+[2024-07-16T05:50:59.515+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.095 seconds
+[2024-07-16T05:51:29.861+0530] {processor.py:161} INFO - Started process (PID=54457) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:51:29.867+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:51:29.868+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:51:29.868+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:51:29.877+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_historic' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:51:29.902+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:51:29.902+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:51:29.912+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:51:29.912+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_historic to None, run_after=None
+[2024-07-16T05:51:29.931+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.077 seconds
+[2024-07-16T05:52:00.849+0530] {processor.py:161} INFO - Started process (PID=55111) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:52:00.855+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:52:00.856+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:52:00.855+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:52:00.866+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_historic' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:52:00.892+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:52:00.892+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:52:00.902+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:52:00.902+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_historic to None, run_after=None
+[2024-07-16T05:52:00.919+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.077 seconds
+[2024-07-16T05:52:31.300+0530] {processor.py:161} INFO - Started process (PID=55869) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:52:31.307+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:52:31.310+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:52:31.308+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:52:31.332+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_historic' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:52:31.368+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:52:31.368+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:52:31.384+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:52:31.384+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_historic to None, run_after=None
+[2024-07-16T05:52:31.407+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.117 seconds
+[2024-07-16T05:53:02.167+0530] {processor.py:161} INFO - Started process (PID=56637) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:53:02.172+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:53:02.173+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:53:02.173+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:53:02.182+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_historic' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:53:02.206+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:53:02.206+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:53:02.216+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:53:02.216+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_historic to None, run_after=None
+[2024-07-16T05:53:02.238+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.080 seconds
+[2024-07-16T05:53:32.406+0530] {processor.py:161} INFO - Started process (PID=57389) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:53:32.412+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:53:32.414+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:53:32.414+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:53:32.423+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_historic' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:53:32.449+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:53:32.449+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:53:32.460+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:53:32.460+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_historic to None, run_after=None
+[2024-07-16T05:53:32.479+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.081 seconds
+[2024-07-16T05:54:02.873+0530] {processor.py:161} INFO - Started process (PID=57966) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:54:02.879+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:54:02.880+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:54:02.879+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:54:02.890+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_historic' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:54:02.920+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:54:02.920+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:54:02.934+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:54:02.934+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_historic to None, run_after=None
+[2024-07-16T05:54:02.962+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.098 seconds
+[2024-07-16T05:54:33.172+0530] {processor.py:161} INFO - Started process (PID=58588) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:54:33.178+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:54:33.179+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:54:33.178+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:54:33.187+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_historic' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:54:33.213+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:54:33.213+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:54:33.223+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:54:33.223+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_historic to None, run_after=None
+[2024-07-16T05:54:33.240+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.075 seconds
+[2024-07-16T05:55:03.349+0530] {processor.py:161} INFO - Started process (PID=59458) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:55:03.350+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:55:03.351+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:55:03.351+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:55:03.360+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_historic' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:55:03.388+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:55:03.387+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:55:03.405+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:55:03.404+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_historic to None, run_after=None
+[2024-07-16T05:55:03.431+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.089 seconds
+[2024-07-16T05:55:34.637+0530] {processor.py:161} INFO - Started process (PID=60159) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:55:34.637+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:55:34.638+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:55:34.638+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:55:34.646+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_historic' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:55:34.669+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:55:34.669+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:55:34.679+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:55:34.679+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_historic to None, run_after=None
+[2024-07-16T05:55:34.695+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.065 seconds
+[2024-07-16T05:56:05.378+0530] {processor.py:161} INFO - Started process (PID=60930) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:05.379+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:56:05.380+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:05.380+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:05.389+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_historic' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:05.419+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:05.419+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:56:05.431+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:05.430+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_historic to None, run_after=None
+[2024-07-16T05:56:05.450+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.080 seconds
+[2024-07-16T05:56:29.907+0530] {processor.py:161} INFO - Started process (PID=61455) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:29.910+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:56:29.910+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:29.910+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:29.925+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_historic' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:29.957+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:29.957+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:56:29.970+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:29.969+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_historic to None, run_after=None
+[2024-07-16T05:56:29.994+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.097 seconds
+[2024-07-16T05:56:35.361+0530] {processor.py:161} INFO - Started process (PID=61611) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:35.363+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:56:35.364+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:35.364+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:35.386+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:35.383+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py", line 275, in <module>
+    f'{path}dag_prepare_data_historic',
+       ^^^^
+NameError: name 'path' is not defined
+[2024-07-16T05:56:35.388+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:35.412+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.060 seconds
+[2024-07-16T05:56:37.411+0530] {processor.py:161} INFO - Started process (PID=61671) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:37.413+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:56:37.414+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:37.414+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:37.430+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:37.429+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py", line 13, in <module>
+    f'{path}owner': 'airflow',
+       ^^^^
+NameError: name 'path' is not defined
+[2024-07-16T05:56:37.431+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:37.454+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.051 seconds
+[2024-07-16T05:56:38.448+0530] {processor.py:161} INFO - Started process (PID=61685) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:38.449+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:56:38.450+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:38.450+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:38.466+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:38.465+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py", line 275, in <module>
+    f'{path}dag_prepare_data_historic',
+       ^^^^
+NameError: name 'path' is not defined
+[2024-07-16T05:56:38.466+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:38.492+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.051 seconds
+[2024-07-16T05:56:40.520+0530] {processor.py:161} INFO - Started process (PID=61764) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:40.522+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:56:40.524+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:40.523+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:40.545+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:40.543+0530] {dagbag.py:355} ERROR - Failed to import: //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+Traceback (most recent call last):
+  File "/home/kali/Desktop/projects/git/bank_data_processing/myenv/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "//home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py", line 13, in <module>
+    f'{path}owner': 'airflow',
+       ^^^^
+NameError: name 'path' is not defined
+[2024-07-16T05:56:40.545+0530] {processor.py:842} WARNING - No viable dags retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:40.573+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.064 seconds
+[2024-07-16T05:56:42.610+0530] {processor.py:161} INFO - Started process (PID=61787) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:42.611+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:56:42.612+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:42.612+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:42.629+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_historic' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:56:42.662+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:42.661+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:56:42.678+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:42.678+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_historic to None, run_after=None
+[2024-07-16T05:56:42.712+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.118 seconds
+[2024-07-16T05:57:01.447+0530] {processor.py:161} INFO - Started process (PID=62318) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:57:01.448+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:57:01.449+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:57:01.449+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:57:01.463+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_historic' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:57:01.491+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:57:01.491+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:57:01.502+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:57:01.502+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_historic to None, run_after=None
+[2024-07-16T05:57:01.522+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.082 seconds
+[2024-07-16T05:57:05.938+0530] {processor.py:161} INFO - Started process (PID=62463) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:57:05.939+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py for tasks to queue
+[2024-07-16T05:57:05.940+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:57:05.939+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:57:05.970+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_historic' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py
+[2024-07-16T05:57:06.004+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:57:06.003+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:57:06.019+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:57:06.019+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_historic to None, run_after=None
+[2024-07-16T05:57:06.049+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_historic.py took 0.121 seconds

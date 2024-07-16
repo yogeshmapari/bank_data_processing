@@ -1,0 +1,130 @@
+[2024-07-16T05:48:36.398+0530] {processor.py:161} INFO - Started process (PID=49723) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:48:36.399+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py for tasks to queue
+[2024-07-16T05:48:36.400+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:48:36.399+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:48:36.418+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_today' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:48:36.553+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:48:36.551+0530] {override.py:1847} INFO - Created Permission View: can delete on DAG:dag_prepare_data_today
+[2024-07-16T05:48:36.566+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:48:36.565+0530] {override.py:1847} INFO - Created Permission View: can read on DAG:dag_prepare_data_today
+[2024-07-16T05:48:36.578+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:48:36.577+0530] {override.py:1847} INFO - Created Permission View: can edit on DAG:dag_prepare_data_today
+[2024-07-16T05:48:36.578+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:48:36.578+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:48:36.590+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:48:36.589+0530] {dag.py:3118} INFO - Creating ORM DAG for dag_prepare_data_today
+[2024-07-16T05:48:36.590+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:48:36.590+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_today to None, run_after=None
+[2024-07-16T05:48:36.612+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py took 0.220 seconds
+[2024-07-16T05:49:06.714+0530] {processor.py:161} INFO - Started process (PID=50594) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:49:06.720+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py for tasks to queue
+[2024-07-16T05:49:06.721+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:06.721+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:49:06.733+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_today' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:49:06.780+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:06.779+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:49:06.802+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:06.802+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_today to None, run_after=None
+[2024-07-16T05:49:06.839+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py took 0.132 seconds
+[2024-07-16T05:49:37.824+0530] {processor.py:161} INFO - Started process (PID=51370) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:49:37.830+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py for tasks to queue
+[2024-07-16T05:49:37.831+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:37.831+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:49:37.841+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_today' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:49:37.869+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:37.868+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:49:37.880+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:49:37.879+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_today to None, run_after=None
+[2024-07-16T05:49:37.899+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py took 0.085 seconds
+[2024-07-16T05:50:08.483+0530] {processor.py:161} INFO - Started process (PID=52068) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:50:08.484+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py for tasks to queue
+[2024-07-16T05:50:08.485+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:50:08.484+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:50:08.496+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_today' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:50:08.522+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:50:08.522+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:50:08.535+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:50:08.535+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_today to None, run_after=None
+[2024-07-16T05:50:08.565+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py took 0.096 seconds
+[2024-07-16T05:50:38.840+0530] {processor.py:161} INFO - Started process (PID=53184) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:50:38.842+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py for tasks to queue
+[2024-07-16T05:50:38.843+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:50:38.843+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:50:38.852+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_today' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:50:38.880+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:50:38.880+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:50:38.891+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:50:38.891+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_today to None, run_after=None
+[2024-07-16T05:50:38.909+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py took 0.077 seconds
+[2024-07-16T05:51:09.533+0530] {processor.py:161} INFO - Started process (PID=53922) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:51:09.539+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py for tasks to queue
+[2024-07-16T05:51:09.540+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:51:09.540+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:51:09.554+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_today' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:51:09.594+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:51:09.593+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:51:09.622+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:51:09.621+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_today to None, run_after=None
+[2024-07-16T05:51:09.688+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py took 0.166 seconds
+[2024-07-16T05:51:40.028+0530] {processor.py:161} INFO - Started process (PID=54603) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:51:40.034+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py for tasks to queue
+[2024-07-16T05:51:40.035+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:51:40.035+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:51:40.048+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_today' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:51:40.077+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:51:40.077+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:51:40.088+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:51:40.088+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_today to None, run_after=None
+[2024-07-16T05:51:40.109+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py took 0.091 seconds
+[2024-07-16T05:52:11.028+0530] {processor.py:161} INFO - Started process (PID=55247) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:52:11.034+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py for tasks to queue
+[2024-07-16T05:52:11.035+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:52:11.035+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:52:11.049+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_today' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:52:11.076+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:52:11.076+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:52:11.088+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:52:11.088+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_today to None, run_after=None
+[2024-07-16T05:52:11.108+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py took 0.087 seconds
+[2024-07-16T05:52:41.417+0530] {processor.py:161} INFO - Started process (PID=56014) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:52:41.418+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py for tasks to queue
+[2024-07-16T05:52:41.420+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:52:41.419+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:52:41.429+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_today' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:52:41.463+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:52:41.462+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:52:41.475+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:52:41.475+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_today to None, run_after=None
+[2024-07-16T05:52:41.516+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py took 0.106 seconds
+[2024-07-16T05:53:12.273+0530] {processor.py:161} INFO - Started process (PID=56773) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:53:12.278+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py for tasks to queue
+[2024-07-16T05:53:12.279+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:53:12.279+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:53:12.289+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_today' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:53:12.315+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:53:12.315+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:53:12.330+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:53:12.330+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_today to None, run_after=None
+[2024-07-16T05:53:12.384+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py took 0.119 seconds
+[2024-07-16T05:53:42.576+0530] {processor.py:161} INFO - Started process (PID=57523) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:53:42.579+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py for tasks to queue
+[2024-07-16T05:53:42.580+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:53:42.579+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:53:42.589+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_today' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:53:42.614+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:53:42.614+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:53:42.625+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:53:42.625+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_today to None, run_after=None
+[2024-07-16T05:53:42.642+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py took 0.072 seconds
+[2024-07-16T05:54:12.978+0530] {processor.py:161} INFO - Started process (PID=58052) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:54:12.984+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py for tasks to queue
+[2024-07-16T05:54:12.985+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:54:12.984+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:54:12.997+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_today' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:54:13.031+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:54:13.030+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:54:13.049+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:54:13.048+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_today to None, run_after=None
+[2024-07-16T05:54:13.076+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py took 0.110 seconds
+[2024-07-16T05:54:43.304+0530] {processor.py:161} INFO - Started process (PID=58899) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:54:43.310+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py for tasks to queue
+[2024-07-16T05:54:43.311+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:54:43.311+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:54:43.323+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_today' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:54:43.354+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:54:43.354+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:54:43.366+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:54:43.366+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_today to None, run_after=None
+[2024-07-16T05:54:43.386+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py took 0.093 seconds
+[2024-07-16T05:55:13.564+0530] {processor.py:161} INFO - Started process (PID=59603) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:55:13.570+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py for tasks to queue
+[2024-07-16T05:55:13.574+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:55:13.573+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:55:13.583+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_today' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:55:13.624+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:55:13.623+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:55:13.646+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:55:13.645+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_today to None, run_after=None
+[2024-07-16T05:55:13.693+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py took 0.140 seconds
+[2024-07-16T05:55:43.799+0530] {processor.py:161} INFO - Started process (PID=60300) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:55:43.800+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py for tasks to queue
+[2024-07-16T05:55:43.801+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:55:43.800+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:55:43.810+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_today' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:55:43.834+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:55:43.834+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:55:43.845+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:55:43.845+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_today to None, run_after=None
+[2024-07-16T05:55:43.865+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py took 0.073 seconds
+[2024-07-16T05:56:14.291+0530] {processor.py:161} INFO - Started process (PID=61068) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:56:14.298+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py for tasks to queue
+[2024-07-16T05:56:14.299+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:14.298+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:56:14.311+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_today' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:56:14.342+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:14.340+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:56:14.362+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:14.362+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_today to None, run_after=None
+[2024-07-16T05:56:14.398+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py took 0.116 seconds
+[2024-07-16T05:56:44.655+0530] {processor.py:161} INFO - Started process (PID=61811) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:56:44.661+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py for tasks to queue
+[2024-07-16T05:56:44.662+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:44.662+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:56:44.674+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_today' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:56:44.710+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:44.710+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:56:44.728+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:56:44.728+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_today to None, run_after=None
+[2024-07-16T05:56:44.758+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py took 0.113 seconds
+[2024-07-16T05:57:15.576+0530] {processor.py:161} INFO - Started process (PID=62775) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:57:15.579+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py for tasks to queue
+[2024-07-16T05:57:15.581+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:57:15.580+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:57:15.595+0530] {processor.py:840} INFO - DAG(s) 'dag_prepare_data_today' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py
+[2024-07-16T05:57:15.629+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:57:15.628+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:57:15.644+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:57:15.643+0530] {dag.py:3954} INFO - Setting next_dagrun for dag_prepare_data_today to None, run_after=None
+[2024-07-16T05:57:15.671+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_prepare_data_today.py took 0.105 seconds

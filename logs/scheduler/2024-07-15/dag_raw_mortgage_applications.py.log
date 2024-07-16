@@ -1,0 +1,168 @@
+[2024-07-16T05:16:11.405+0530] {processor.py:161} INFO - Started process (PID=6243) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:16:11.406+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:16:11.408+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:11.408+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:16:11.937+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:11.937+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:16:11.943+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:16:11.945+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:11.945+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:16:11.954+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:11.954+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:16:11.974+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.575 seconds
+[2024-07-16T05:16:44.689+0530] {processor.py:161} INFO - Started process (PID=6792) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:16:44.690+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:16:44.693+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:44.693+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:16:45.370+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:45.370+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:16:45.378+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:16:45.506+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:45.505+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:16:45.517+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:45.517+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:16:45.551+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.872 seconds
+[2024-07-16T05:17:15.730+0530] {processor.py:161} INFO - Started process (PID=7266) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:17:15.730+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:17:15.732+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:15.732+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:17:16.189+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:16.188+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:17:16.195+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:17:16.274+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:16.274+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:17:16.281+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:16.281+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:17:16.302+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.579 seconds
+[2024-07-16T05:17:47.654+0530] {processor.py:161} INFO - Started process (PID=7783) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:17:47.658+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:17:47.661+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:47.661+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:17:48.500+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:48.500+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:17:48.511+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:17:48.651+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:48.651+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:17:48.664+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:48.664+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:17:48.695+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 1.048 seconds
+[2024-07-16T05:18:19.082+0530] {processor.py:161} INFO - Started process (PID=8266) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:18:19.083+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:18:19.085+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:19.084+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:18:19.654+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:19.654+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:18:19.660+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:18:19.746+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:19.746+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:18:19.759+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:19.759+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:18:19.779+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.705 seconds
+[2024-07-16T05:18:50.020+0530] {processor.py:161} INFO - Started process (PID=8778) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:18:50.021+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:18:50.025+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:50.023+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:18:50.657+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:50.656+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:18:50.664+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:18:50.782+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:50.781+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:18:50.794+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:50.794+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:18:50.817+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.805 seconds
+[2024-07-16T05:19:21.462+0530] {processor.py:161} INFO - Started process (PID=9286) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:19:21.463+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:19:21.466+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:21.465+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:19:22.144+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:22.144+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:19:22.152+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:19:22.256+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:22.255+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:19:22.272+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:22.271+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:19:22.310+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.855 seconds
+[2024-07-16T05:19:50.620+0530] {processor.py:161} INFO - Started process (PID=10271) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:19:50.621+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:19:50.623+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:50.623+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:19:51.170+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:51.170+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:19:51.177+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:19:51.180+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:51.179+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:19:51.189+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:51.189+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:19:51.210+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.596 seconds
+[2024-07-16T05:20:23.123+0530] {processor.py:161} INFO - Started process (PID=10866) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:20:23.124+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:20:23.126+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:23.126+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:20:23.764+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:23.764+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:20:23.773+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:20:23.776+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:23.775+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:20:23.786+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:23.786+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:20:23.810+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.694 seconds
+[2024-07-16T05:20:57.051+0530] {processor.py:161} INFO - Started process (PID=12053) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:20:57.053+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:20:57.059+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:57.058+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:20:58.015+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:58.014+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:20:58.025+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:20:58.168+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:58.167+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:20:58.177+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:58.177+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:20:58.204+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 1.190 seconds
+[2024-07-16T05:24:33.561+0530] {processor.py:161} INFO - Started process (PID=15771) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:24:33.562+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:24:33.564+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:24:33.563+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:24:34.105+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:24:34.105+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:24:34.111+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:24:34.114+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:24:34.113+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:24:34.122+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:24:34.122+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:24:34.143+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.589 seconds
+[2024-07-16T05:25:06.288+0530] {processor.py:161} INFO - Started process (PID=16485) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:25:06.291+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:25:06.295+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:06.294+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:25:07.263+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:07.262+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:25:07.273+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:25:07.471+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:07.471+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:25:07.489+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:07.488+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:25:07.530+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 1.255 seconds
+[2024-07-16T05:25:37.845+0530] {processor.py:161} INFO - Started process (PID=17893) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:25:37.847+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:25:37.850+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:37.849+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:25:38.459+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:38.459+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:25:38.466+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:25:38.636+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:38.635+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:25:38.650+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:38.649+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:25:38.684+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.849 seconds
+[2024-07-16T05:26:09.095+0530] {processor.py:161} INFO - Started process (PID=18619) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:26:09.096+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:26:09.097+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:09.097+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:26:09.712+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:09.711+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:26:09.721+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:26:09.829+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:09.828+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:26:09.840+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:09.840+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:26:09.863+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.775 seconds
+[2024-07-16T05:26:40.518+0530] {processor.py:161} INFO - Started process (PID=19902) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:26:40.520+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:26:40.522+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:40.522+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:26:41.367+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:41.366+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:26:41.380+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:26:41.538+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:41.538+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:26:41.552+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:41.551+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:26:41.588+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 1.084 seconds
+[2024-07-16T05:27:11.763+0530] {processor.py:161} INFO - Started process (PID=21130) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:27:11.764+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:27:11.766+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:11.765+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:27:12.385+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:12.384+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:27:12.395+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:27:12.483+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:12.483+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:27:12.491+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:12.491+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:27:12.510+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.753 seconds
+[2024-07-16T05:27:42.835+0530] {processor.py:161} INFO - Started process (PID=21794) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:27:42.836+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:27:42.838+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:42.838+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:27:43.407+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:43.407+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:27:43.413+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:27:43.501+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:43.501+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:27:43.508+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:43.508+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:27:43.532+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.703 seconds
+[2024-07-16T05:28:14.501+0530] {processor.py:161} INFO - Started process (PID=22334) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:28:14.502+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:28:14.504+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:14.503+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:28:15.178+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:15.177+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:28:15.201+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:28:15.301+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:15.300+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:28:15.313+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:15.313+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:28:15.342+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.848 seconds
+[2024-07-16T05:28:45.837+0530] {processor.py:161} INFO - Started process (PID=22841) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:28:45.839+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:28:45.841+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:45.841+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:28:46.472+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:46.472+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:28:46.479+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:28:46.643+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:46.642+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:28:46.654+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:46.654+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:28:46.677+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.848 seconds
+[2024-07-16T05:29:17.416+0530] {processor.py:161} INFO - Started process (PID=23443) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:29:17.418+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:29:17.420+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:17.420+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:29:18.129+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:18.129+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:29:18.137+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:29:18.323+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:18.321+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:29:18.350+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:18.350+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:29:18.396+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.993 seconds
+[2024-07-16T05:29:48.599+0530] {processor.py:161} INFO - Started process (PID=24083) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:29:48.601+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py for tasks to queue
+[2024-07-16T05:29:48.604+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:48.603+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:29:49.161+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:49.161+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:29:49.168+0530] {processor.py:840} INFO - DAG(s) 'raw_load_mortgage_applications' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py
+[2024-07-16T05:29:49.257+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:49.257+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:29:49.265+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:49.265+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_mortgage_applications to None, run_after=None
+[2024-07-16T05:29:49.291+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_mortgage_applications.py took 0.698 seconds

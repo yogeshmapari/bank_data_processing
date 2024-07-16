@@ -1,0 +1,176 @@
+[2024-07-16T05:16:09.010+0530] {processor.py:161} INFO - Started process (PID=6145) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:16:09.011+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:16:09.013+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:09.013+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:16:09.554+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:09.554+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:16:09.560+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:16:09.562+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:09.562+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:16:09.571+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:09.571+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:16:09.596+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 0.591 seconds
+[2024-07-16T05:16:40.628+0530] {processor.py:161} INFO - Started process (PID=6696) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:16:40.629+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:16:40.632+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:40.632+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:16:41.207+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:41.207+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:16:41.215+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:16:41.316+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:41.316+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:16:41.324+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:16:41.323+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:16:41.348+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 0.726 seconds
+[2024-07-16T05:17:11.552+0530] {processor.py:161} INFO - Started process (PID=7162) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:17:11.553+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:17:11.555+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:11.554+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:17:11.997+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:11.996+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:17:12.002+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:17:12.089+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:12.088+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:17:12.097+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:12.096+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:17:12.119+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 0.573 seconds
+[2024-07-16T05:17:43.035+0530] {processor.py:161} INFO - Started process (PID=7661) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:17:43.036+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:17:43.038+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:43.037+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:17:43.766+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:43.765+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:17:43.775+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:17:43.914+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:43.913+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:17:43.927+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:17:43.926+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:17:43.965+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 0.938 seconds
+[2024-07-16T05:18:14.345+0530] {processor.py:161} INFO - Started process (PID=8162) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:18:14.345+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:18:14.347+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:14.347+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:18:14.895+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:14.895+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:18:14.901+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:18:14.984+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:14.984+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:18:14.996+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:14.995+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:18:15.015+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 0.679 seconds
+[2024-07-16T05:18:45.896+0530] {processor.py:161} INFO - Started process (PID=8671) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:18:45.898+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:18:45.899+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:45.899+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:18:46.687+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:46.687+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:18:46.698+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:18:46.834+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:46.833+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:18:46.846+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:18:46.846+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:18:46.872+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 0.986 seconds
+[2024-07-16T05:19:17.644+0530] {processor.py:161} INFO - Started process (PID=9188) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:19:17.648+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:19:17.661+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:17.658+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:19:18.493+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:18.492+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:19:18.503+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:19:18.641+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:18.641+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:19:18.654+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:18.653+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:19:18.680+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 1.056 seconds
+[2024-07-16T05:19:48.066+0530] {processor.py:161} INFO - Started process (PID=10080) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:19:48.067+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:19:48.069+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:48.069+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:19:48.687+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:48.686+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:19:48.693+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:19:48.790+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:48.789+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:19:48.800+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:19:48.800+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:19:48.829+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 0.768 seconds
+[2024-07-16T05:20:19.640+0530] {processor.py:161} INFO - Started process (PID=10736) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:20:19.643+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:20:19.645+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:19.644+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:20:20.640+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:20.639+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:20:20.649+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:20:20.798+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:20.797+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:20:20.815+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:20.815+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:20:20.851+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 1.221 seconds
+[2024-07-16T05:20:51.587+0530] {processor.py:161} INFO - Started process (PID=11692) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:20:51.588+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:20:51.590+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:51.589+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:20:52.638+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:52.637+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:20:52.655+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:20:52.851+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:52.850+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:20:52.874+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:20:52.874+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:20:52.924+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 1.349 seconds
+[2024-07-16T05:21:23.608+0530] {processor.py:161} INFO - Started process (PID=12690) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:21:23.609+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:21:23.612+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:21:23.612+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:21:24.355+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:21:24.354+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:21:24.361+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:21:24.456+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:21:24.456+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:21:24.465+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:21:24.465+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:21:24.486+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 0.887 seconds
+[2024-07-16T05:24:30.927+0530] {processor.py:161} INFO - Started process (PID=15500) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:24:30.929+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:24:30.933+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:24:30.932+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:24:31.527+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:24:31.527+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:24:31.533+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:24:31.536+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:24:31.535+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:24:31.549+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:24:31.549+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:24:31.576+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 0.660 seconds
+[2024-07-16T05:25:02.328+0530] {processor.py:161} INFO - Started process (PID=16357) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:25:02.331+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:25:02.334+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:02.333+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:25:03.107+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:03.106+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:25:03.119+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:25:03.330+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:03.330+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:25:03.344+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:03.343+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:25:03.382+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 1.065 seconds
+[2024-07-16T05:25:34.089+0530] {processor.py:161} INFO - Started process (PID=17598) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:25:34.092+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:25:34.097+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:34.097+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:25:34.692+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:34.692+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:25:34.709+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:25:34.840+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:34.840+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:25:34.850+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:25:34.850+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:25:34.871+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 0.791 seconds
+[2024-07-16T05:26:05.038+0530] {processor.py:161} INFO - Started process (PID=18491) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:26:05.039+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:26:05.041+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:05.041+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:26:05.637+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:05.636+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:26:05.643+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:26:05.726+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:05.726+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:26:05.734+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:05.733+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:26:05.751+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 0.720 seconds
+[2024-07-16T05:26:35.949+0530] {processor.py:161} INFO - Started process (PID=19654) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:26:35.957+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:26:35.959+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:35.959+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:26:36.542+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:36.542+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:26:36.549+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:26:36.652+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:36.652+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:26:36.667+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:26:36.667+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:26:36.698+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 0.760 seconds
+[2024-07-16T05:27:07.954+0530] {processor.py:161} INFO - Started process (PID=20883) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:27:07.958+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:27:07.961+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:07.960+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:27:08.811+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:08.810+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:27:08.820+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:27:08.992+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:08.991+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:27:09.012+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:09.011+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:27:09.047+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 1.102 seconds
+[2024-07-16T05:27:39.436+0530] {processor.py:161} INFO - Started process (PID=21673) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:27:39.441+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:27:39.443+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:39.443+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:27:40.106+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:40.106+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:27:40.117+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:27:40.277+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:40.276+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:27:40.293+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:27:40.293+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:27:40.340+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 0.912 seconds
+[2024-07-16T05:28:10.763+0530] {processor.py:161} INFO - Started process (PID=22213) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:28:10.764+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:28:10.766+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:10.765+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:28:11.493+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:11.493+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:28:11.501+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:28:11.642+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:11.641+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:28:11.657+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:11.656+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:28:11.697+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 0.943 seconds
+[2024-07-16T05:28:42.017+0530] {processor.py:161} INFO - Started process (PID=22710) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:28:42.018+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:28:42.023+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:42.022+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:28:42.925+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:42.925+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:28:42.936+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:28:43.138+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:43.137+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:28:43.160+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:28:43.160+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:28:43.188+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 1.182 seconds
+[2024-07-16T05:29:13.703+0530] {processor.py:161} INFO - Started process (PID=23317) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:29:13.708+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:29:13.710+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:13.710+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:29:14.416+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:14.415+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:29:14.426+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:29:14.534+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:14.533+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:29:14.542+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:14.542+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:29:14.580+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 0.885 seconds
+[2024-07-16T05:29:44.929+0530] {processor.py:161} INFO - Started process (PID=23965) to work on //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:29:44.935+0530] {processor.py:830} INFO - Processing file //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py for tasks to queue
+[2024-07-16T05:29:44.938+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:44.937+0530] {dagbag.py:545} INFO - Filling up the DagBag from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:29:45.559+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:45.558+0530] {base.py:84} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T05:29:45.565+0530] {processor.py:840} INFO - DAG(s) 'raw_load_credit_scores' retrieved from //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py
+[2024-07-16T05:29:45.679+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:45.679+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-07-16T05:29:45.689+0530] {logging_mixin.py:188} INFO - [2024-07-16T05:29:45.689+0530] {dag.py:3954} INFO - Setting next_dagrun for raw_load_credit_scores to None, run_after=None
+[2024-07-16T05:29:45.713+0530] {processor.py:183} INFO - Processing //home/kali/Desktop/projects/git/bank_data_processing/dags/dag_raw_credit_scores.py took 0.791 seconds

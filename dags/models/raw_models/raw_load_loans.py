@@ -5,6 +5,7 @@
 
 import pandas as pd
 import datetime
+from airflow.hooks.mysql_hook import MySqlHook
 #     # List of CSV files and their corresponding table names
  
     # Function to create tables if they do not exist
@@ -32,7 +33,10 @@ def tuncate_table(cursor):
         cursor.execute(tuncate_table)
 
 def insert_table(cursor):
-        csv_files = { '/home/kali/Desktop/projects/git/bank_data_processing/data_prepare/loans_today.csv': 'loans' }
+        mysql_hook = MySqlHook(mysql_conn_id='mysql_default')
+        conn = mysql_hook.get_conn()
+        cursor=conn.cursor()
+        csv_files = { '/home/kali/Desktop/projects/git/bank_data_processing/dags/data_prepare/loans_today.csv': 'loans' }
         def load_csv_to_mysql(csv_file, table_name):
             df = pd.read_csv(csv_file)
             current_timestamp = datetime.datetime.now()
@@ -44,6 +48,7 @@ def insert_table(cursor):
             print(cols)
 
             for i, row in df.iterrows():
+                row = [str(item) for item in row]
                 sql = f"INSERT INTO `{table_name}` (`{cols}`) VALUES ({'%s, ' * (len(row) - 1)}%s)"
                 print(tuple(row))
                 cursor.execute(sql, tuple(row))
@@ -65,7 +70,7 @@ def insert_table(cursor):
                 print(f"File not found: {csv_file}")
  
         print("All CSV files have been loaded into MySQL tables.")
-
+        conn.commit()
     # Create tables if they do not exist
     # create_tables(cursor)
     # tuncate_table(cursor)

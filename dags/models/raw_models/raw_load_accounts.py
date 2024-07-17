@@ -5,12 +5,17 @@
 
 import pandas as pd
 import datetime
+from airflow.hooks.mysql_hook import MySqlHook
 #     # List of CSV files and their corresponding table names
 import shutil
 import os
+from airflow.hooks.mysql_hook import MySqlHook
+
     # Function to create tables if they do not exist
 def create_tables(cursor):
-        create_employees_table = """
+        
+        create_employees_table = f"""
+        
         CREATE TABLE  IF NOT EXISTS accounts (
         account_id VARCHAR(255) ,
         customer_id VARCHAR(255),
@@ -24,16 +29,21 @@ def create_tables(cursor):
         """
         cursor.execute(create_employees_table)
 
+        # cursor.close()  # Close the cursor
 def tuncate_table(cursor):
-        tuncate_table = """
-    truncate table accounts
-        ;
+        tuncate_table = f"""
+    
+                truncate table accounts;
         """
         cursor.execute(tuncate_table)
 
 
 def insert_table(cursor):
-        csv_files = { '/home/kali/Desktop/projects/git/bank_data_processing/data_prepare/accounts_today.csv': 'accounts' }
+        mysql_hook = MySqlHook(mysql_conn_id='mysql_default')
+        conn = mysql_hook.get_conn()
+        cursor=conn.cursor()
+
+        csv_files = { '/home/kali/Desktop/projects/git/bank_data_processing/dags/data_prepare/accounts_today.csv': 'accounts' }
         def load_csv_to_mysql(csv_file, table_name):
             df = pd.read_csv(csv_file)
             current_timestamp = datetime.datetime.now()
@@ -45,15 +55,28 @@ def insert_table(cursor):
             print(cols)
 
             for i, row in df.iterrows():
-                sql = f"INSERT INTO `{table_name}` (`{cols}`) VALUES ({'%s, ' * (len(row) - 1)}%s)"
-                print(tuple(row))
-                cursor.execute(sql, tuple(row))
+                row = [str(item) for item in row]
+
+                sql = f"INSERT INTO {table_name} (`{cols}`) VALUES "
+                fsql=sql+str(tuple(row))+';'
+                print(fsql)
+                cursor.execute(fsql)
+                # results = cursor.fetchall()
+            
 
         for csv_file, table_name in csv_files.items():
             import shutil
             import os
             if os.path.exists(csv_file):
                 load_csv_to_mysql(csv_file, table_name)
+                try:
+                    cursor.execute("SELECT * FROM accounts")
+                    results = cursor.fetchall()
+    
+                    for row in results:
+                        print(row)
+                finally:
+                    cursor.close()  # Close the cursor
                 print(f"Loaded {csv_file} into {table_name} table")
             
             # Move the file to the archive folder
@@ -67,6 +90,7 @@ def insert_table(cursor):
 
 
         print("All CSV files have been loaded into MySQL tables.")
+        conn.commit()
 
     # Create tables if they do not exist
     # create_tables(cursor)

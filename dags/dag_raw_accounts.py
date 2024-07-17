@@ -30,7 +30,8 @@ dag = DAG(
 )
 mysql_hook = MySqlHook(mysql_conn_id='mysql_default')
 conn = mysql_hook.get_conn()
-cursor = conn.cursor()
+cursor=conn.cursor()
+
 # Python operator to execute the load_json_files_to_mysql function
 create_table = PythonOperator(
     task_id='create_table',
@@ -42,7 +43,7 @@ create_table = PythonOperator(
 tuncate_table = PythonOperator(
     task_id='tuncate_table',
     python_callable=tuncate_table,
-    op_kwargs={'cursor': cursor },
+    op_kwargs={'cursor': cursor},
     provide_context=True,  # This provides the task context (e.g., execution date)
     dag=dag,
 )
@@ -54,5 +55,8 @@ insert_table = PythonOperator(
     dag=dag,
 )
 
+# conn.commit()
 # Define task dependencies
 create_table >>tuncate_table>>insert_table
+
+# conn.close()

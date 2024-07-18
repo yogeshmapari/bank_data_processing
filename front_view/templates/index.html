@@ -1,16 +1,642 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Database Tables</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-  </head>
-  <body>
-    <h1>Database Tables</h1>
-    <ul>
-      {% for table in tables %}
-        <li><a href="{{ url_for('show_table', table_name=table[0]) }}">{{ table[1] }}</a></li>
-      {% endfor %}
-    </ul>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+    <!-- Additional CSS for custom styling -->
+    <style>
+        /* Customize styles as needed */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding-top: 20px;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Banking Dashboard</h1>
+        
+        <!-- Repeat the card structure for each of the 20 tables -->
+        
+        <!-- Example for Accounts -->
+        <div class="card">
+            <div class="card-header">
+                Accounts
+            </div>
+            <div class="card-body">
+                <table id="accounts_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Account Number</th>
+                            <th>Customer ID</th>
+                            <th>Balance</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for account in table_data['dlt_accounts'] %}
+                        <tr>
+                            <td>{{ account.account_number }}</td>
+                            <td>{{ account.customer_id }}</td>
+                            <td>{{ account.balance }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Example for ATMs -->
+        <div class="card">
+            <div class="card-header">
+                ATMs
+            </div>
+            <div class="card-body">
+                <table id="atms_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ATM ID</th>
+                            <th>Location</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for atm in table_data['dlt_atms'] %}
+                        <tr>
+                            <td>{{ atm.atm_id }}</td>
+                            <td>{{ atm.location }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Repeat the card structure for each of the remaining tables -->
+        <!-- Example for Bill Payments -->
+        <div class="card">
+            <div class="card-header">
+                Bill Payments
+            </div>
+            <div class="card-body">
+                <table id="bill_payments_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Payment ID</th>
+                            <th>Account Number</th>
+                            <th>Amount</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for payment in table_data['dlt_bill_payments'] %}
+                        <tr>
+                            <td>{{ payment.payment_id }}</td>
+                            <td>{{ payment.account_number }}</td>
+                            <td>{{ payment.amount }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Repeat the above card structure for each of the remaining tables -->
+        <!-- Example for Branches -->
+        <div class="card">
+            <div class="card-header">
+                Branches
+            </div>
+            <div class="card-body">
+                <table id="branches_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Branch ID</th>
+                            <th>Location</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for branch in table_data['dlt_branches'] %}
+                        <tr>
+                            <td>{{ branch.branch_id }}</td>
+                            <td>{{ branch.location }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Repeat the above card structure for each of the remaining tables -->
+        <!-- Example for Cards -->
+        <div class="card">
+            <div class="card-header">
+                Cards
+            </div>
+            <div class="card-body">
+                <table id="cards_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Card Number</th>
+                            <th>Account Number</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for card in table_data['dlt_cards'] %}
+                        <tr>
+                            <td>{{ card.card_number }}</td>
+                            <td>{{ card.account_number }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Repeat the above card structure for each of the remaining tables -->
+        <!-- Example for Cheques -->
+        <div class="card">
+            <div class="card-header">
+                Cheques
+            </div>
+            <div class="card-body">
+                <table id="cheques_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Cheque ID</th>
+                            <th>Account Number</th>
+                            <th>Amount</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for cheque in table_data['dlt_cheques'] %}
+                        <tr>
+                            <td>{{ cheque.cheque_id }}</td>
+                            <td>{{ cheque.account_number }}</td>
+                            <td>{{ cheque.amount }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Repeat the above card structure for each of the remaining tables -->
+        <!-- Example for Credit Scores -->
+        <div class="card">
+            <div class="card-header">
+                Credit Scores
+            </div>
+            <div class="card-body">
+                <table id="credit_scores_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Customer ID</th>
+                            <th>Score</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for score in table_data['dlt_credit_scores'] %}
+                        <tr>
+                            <td>{{ score.customer_id }}</td>
+                            <td>{{ score.score }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Repeat the above card structure for each of the remaining tables -->
+        <!-- Example for Customer Support -->
+        <div class="card">
+            <div class="card-header">
+                Customer Support
+            </div>
+            <div class="card-body">
+                <table id="customer_support_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Customer ID</th>
+                            <th>Issue</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for support in table_data['dlt_customer_support'] %}
+                        <tr>
+                            <td>{{ support.customer_id }}</td>
+                            <td>{{ support.issue }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Repeat the above card structure for each of the remaining tables -->
+        <!-- Example for Customers -->
+        <div class="card">
+            <div class="card-header">
+                Customers
+            </div>
+            <div class="card-body">
+                <table id="customers_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Customer ID</th>
+                            <th>Name</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for customer in table_data['dlt_customers'] %}
+                        <tr>
+                            <td>{{ customer.customer_id }}</td>
+                            <td>{{ customer.name }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Repeat the above card structure for each of the remaining tables -->
+        <!-- Example for Employees -->
+        <div class="card">
+            <div class="card-header">
+                Employees
+            </div>
+            <div class="card-body">
+                <table id="employees_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Employee ID</th>
+                            <th>Name</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for employee in table_data['dlt_employees'] %}
+                        <tr>
+                            <td>{{ employee.employee_id }}</td>
+                            <td>{{ employee.name }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Repeat the above card structure for each of the remaining tables -->
+        <!-- Example for Fixed Deposits -->
+        <div class="card">
+            <div class="card-header">
+                Fixed Deposits
+            </div>
+            <div class="card-body">
+                <table id="fixed_deposits_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Account Number</th>
+                            <th>Amount</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for deposit in table_data['dlt_fixed_deposits'] %}
+                        <tr>
+                            <td>{{ deposit.account_number }}</td>
+                            <td>{{ deposit.amount }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Repeat the above card structure for each of the remaining tables -->
+        <!-- Example for Insurance -->
+        <div class="card">
+            <div class="card-header">
+                Insurance
+            </div>
+            <div class="card-body">
+                <table id="insurance_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Policy Number</th>
+                            <th>Customer ID</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for policy in table_data['dlt_insurance'] %}
+                        <tr>
+                            <td>{{ policy.policy_number }}</td>
+                            <td>{{ policy.customer_id }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Repeat the above card structure for each of the remaining tables -->
+        <!-- Example for Investments -->
+        <div class="card">
+            <div class="card-header">
+                Investments
+            </div>
+            <div class="card-body">
+                <table id="investments_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Investment ID</th>
+                            <th>Account Number</th>
+                            <th>Amount</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for investment in table_data['dlt_investments'] %}
+                        <tr>
+                            <td>{{ investment.investment_id }}</td>
+                            <td>{{ investment.account_number }}</td>
+                            <td>{{ investment.amount }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Repeat the above card structure for each of the remaining tables -->
+        <!-- Example for Loans -->
+        <div class="card">
+            <div class="card-header">
+                Loans
+            </div>
+            <div class="card-body">
+                <table id="loans_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Loan ID</th>
+                            <th>Account Number</th>
+                            <th>Amount</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for loan in table_data['dlt_loans'] %}
+                        <tr>
+                            <td>{{ loan.loan_id }}</td>
+                            <td>{{ loan.account_number }}</td>
+                            <td>{{ loan.amount }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Repeat the above card structure for each of the remaining tables -->
+        <!-- Example for Mortgage Applications -->
+        <div class="card">
+            <div class="card-header">
+                Mortgage Applications
+            </div>
+            <div class="card-body">
+                <table id="mortgage_applications_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Application ID</th>
+                            <th>Customer ID</th>
+                            <th>Status</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for application in table_data['dlt_mortgage_applications'] %}
+                        <tr>
+                            <td>{{ application.application_id }}</td>
+                            <td>{{ application.customer_id }}</td>
+                            <td>{{ application.status }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Repeat the above card structure for each of the remaining tables -->
+        <!-- Example for Online Banking -->
+        <div class="card">
+            <div class="card-header">
+                Online Banking
+            </div>
+            <div class="card-body">
+                <table id="online_banking_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Customer ID</th>
+                            <th>Last Login</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for banking in table_data['dlt_online_banking'] %}
+                        <tr>
+                            <td>{{ banking.customer_id }}</td>
+                            <td>{{ banking.last_login }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Repeat the above card structure for each of the remaining tables -->
+        <!-- Example for Recurring Deposits -->
+        <div class="card">
+            <div class="card-header">
+                Recurring Deposits
+            </div>
+            <div class="card-body">
+                <table id="recurring_deposits_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Account Number</th>
+                            <th>Amount</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for deposit in table_data['dlt_recurring_deposits'] %}
+                        <tr>
+                            <td>{{ deposit.account_number }}</td>
+                            <td>{{ deposit.amount }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Repeat the above card structure for each of the remaining tables -->
+        <!-- Example for Savings Goals -->
+        <div class="card">
+            <div class="card-header">
+                Savings Goals
+            </div>
+            <div class="card-body">
+                <table id="savings_goals_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Goal ID</th>
+                            <th>Customer ID</th>
+                            <th>Amount</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for goal in table_data['dlt_savings_goals'] %}
+                        <tr>
+                            <td>{{ goal.goal_id }}</td>
+                            <td>{{ goal.customer_id }}</td>
+                            <td>{{ goal.amount }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Repeat the above card structure for each of the remaining tables -->
+        <!-- Example for Service Charges -->
+        <div class="card">
+            <div class="card-header">
+                Service Charges
+            </div>
+            <div class="card-body">
+                <table id="service_charges_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Charge ID</th>
+                            <th>Account Number</th>
+                            <th>Amount</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for charge in table_data['dlt_service_charges'] %}
+                        <tr>
+                            <td>{{ charge.charge_id }}</td>
+                            <td>{{ charge.account_number }}</td>
+                            <td>{{ charge.amount }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Repeat the above card structure for each of the remaining tables -->
+        <!-- Example for Transactions -->
+        <div class="card">
+            <div class="card-header">
+                Transactions
+            </div>
+            <div class="card-body">
+                <table id="transactions_table" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Transaction ID</th>
+                            <th>Account Number</th>
+                            <th>Amount</th>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example data, replace with actual Flask data -->
+                        {% for transaction in table_data['dlt_transactions'] %}
+                        <tr>
+                            <td>{{ transaction.transaction_id }}</td>
+                            <td>{{ transaction.account_number }}</td>
+                            <td>{{ transaction.amount }}</td>
+                            <!-- Add more columns as needed -->
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap and DataTables JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Initialize DataTables -->
+    <script>
+        $(document).ready(function() {
+            $('.table').DataTable();
+        });
+    </script>
+</body>
 </html>

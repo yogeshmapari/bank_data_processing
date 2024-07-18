@@ -18,7 +18,7 @@ This project demonstrates a comprehensive data processing pipeline for 20 bankin
 
 
 ## Data Work flow Diagram
-![Web Overview](images/Screenshot_2024-07-19_02-15-33.png)
+![Web Overview](images/workflow.png)
 
 
 ## Data Preparation
@@ -116,6 +116,7 @@ Stack or increment today's data from intermediate tables into DLT (Data Lake Tab
 
 ## Flask Web Application
 ![Web Overview](images/Screenshot_2024-07-19_05-02-02.png)
+![Web Overview](images/Screenshot_2024-07-18_07-24-31.png)
 
 ### Objective
 

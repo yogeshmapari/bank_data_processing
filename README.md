@@ -16,10 +16,15 @@ This project demonstrates a comprehensive data processing pipeline for 20 bankin
 7. [Requirements](#requirements)
 8. [Setup](#setup)
 
+
+## Data Work flow Diagram
+![Web Overview](images\Screenshot_2024-07-19_02-15-33.png)
+
+
 ## Data Preparation
 
 ### Generating Data Using Faker
-
+![Web Overview](images\Screenshot_2024-07-18_07-21-41.png)
 1. **Objective**: Generate synthetic data for 20 banking tables using the Faker library.
 
 2. **Process**:
@@ -37,7 +42,7 @@ we design 2 scripts for same i.e [dag_prepare_data_historic.py ](dag_prepare_dat
    - Save each table's data as a separate CSV file in the `data_prepare` folder.
 
 ## Parent DAG for Table Creation and Data Loading
-
+![Web Overview](images\Screenshot_2024-07-19_02-18-37.png)
 ### Objective
 
 Control the creation of MySQL tables and loading of data into the raw layer using MySQL Hook in Airflow.
@@ -64,6 +69,7 @@ Control the creation of MySQL tables and loading of data into the raw layer usin
    - we given liner dependency for running each task.
    - will not take much time to run the task. but historical run will take much longer then expected as data is for whole year
 ## Data Cleaning and Transformation DAG
+![Web Overview](images\Screenshot_2024-07-19_02-22-33.png)
 
 ### Objective
 
@@ -87,6 +93,7 @@ Clean the data in the raw tables and load the cleaned data into intermediate tab
    - Insert cleaned data into the intermediate tables.
 
 ## Incremental Data Stacking DAG
+![Web Overview](images\Screenshot_2024-07-19_02-23-10.png)
 
 ### Objective
 
@@ -108,6 +115,7 @@ Stack or increment today's data from intermediate tables into DLT (Data Lake Tab
    - Insert or append data into the DLT tables.
 
 ## Flask Web Application
+![Web Overview](images\Screenshot_2024-07-19_05-02-02.png)
 
 ### Objective
 
@@ -128,6 +136,7 @@ Visualize the processed data using a Flask web application.
    - Access the application through a web browser to view the data.
 
 ## Running the Pipeline
+![Web Overview](images\Screenshot_2024-07-19_02-15-33.png)
 
 1. **Prepare Data**:
    - Run the data generation script to create synthetic data for the 20 banking tables.

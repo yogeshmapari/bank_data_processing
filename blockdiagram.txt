@@ -1,0 +1,45 @@
+                             +--------------------------+
+                             |   Data Preparation       |
+                             |--------------------------|
+                             | - Generate data using    |
+                             |   Faker library          |
+                             | - Save data in           |
+                             |   `data_prepare` folder  |
+                             +-----------|--------------+
+                                         |
+                                         v
+                             +--------------------------+
+                             |   Parent DAG             |
+                             |--------------------------|
+                             | - Create MySQL tables    |
+                             | - Load data into raw     |
+                             |   layer using Airflow    |
+                             |   and MySQL Hook         |
+                             +-----------|--------------+
+                                         |
+                                         v
+                             +--------------------------+
+                             | Data Cleaning &          |
+                             | Transformation DAG       |
+                             |--------------------------|
+                             | - Clean raw data         |
+                             | - Load into intermediate |
+                             |   tables                 |
+                             +-----------|--------------+
+                                         |
+                                         v
+                             +--------------------------+
+                             | Incremental Data         |
+                             | Stacking DAG             |
+                             |--------------------------|
+                             | - Stack/increment data   |
+                             |   into DLT tables        |
+                             +-----------|--------------+
+                                         |
+                                         v
+                             +--------------------------+
+                             |   Flask Web Application  |
+                             |--------------------------|
+                             | - Visualize data from    |
+                             |   MySQL tables           |
+                             +--------------------------+

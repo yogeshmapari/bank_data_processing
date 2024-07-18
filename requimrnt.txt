@@ -1,4 +1,0 @@
-apache-airflow 
-mysql
-apache-airflow-providers-mysql
-pandas

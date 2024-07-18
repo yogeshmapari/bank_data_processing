@@ -248,13 +248,10 @@ For contributions, feedback, or issues, please contact Yogesh Mapari at patilmap
 
 ## Blog
 
-For more information, visit [this blog post](https://medium.com/@patilmapari/stock-data-processing-workflow-5426d1df9a33).
+For more information, visit [this blog post](https://medium.com/@patilmapari/streamlining-banking-data-processing-with-apache-airflow-and-flask-1d013b018e39).
 
 
 
----
 
-This documentation provides a structured approach to setting up and running the entire data processing pipeline. Each step is carefully designed to ensure data integrity, accuracy, and efficient processing, culminating in a user-friendly web interface for data visualization.
-```
 
 Make sure to adjust the connection ID and any other specific details according to your setup. This `README.md` file gives a clear and comprehensive guide for users to understand and run the data processing pipeline.

@@ -76,13 +76,18 @@ def transform_and_load_data(mysql_conn_id, source_table, target_table):
     df = normalize_column_names(df)
     df = handle_outliers(df)
     
+
+        # Add timestamp as a new column
+    df['int_ingetion_timestamp'] = datetime.now()
+    print(df.columns,df.dtypes)
     # Create table if it doesn't exist
     cursor.execute(f"""
                    drop TABLE IF  EXISTS {target_table};
     CREATE TABLE IF NOT EXISTS {target_table} (
-        {', '.join([f'{col} {dtype}' for col, dtype in zip(df.columns, df.dtypes.replace({'object': 'VARCHAR(255)', 'int64': 'INT', 'float64': 'FLOAT', 'datetime64[ns]': 'DATETIME'}))])}
+        {', '.join([f'{col} {dtype}' for col, dtype in zip(df.columns, df.dtypes.replace({'object': 'VARCHAR(255)', 'int64': 'INT', 'float64': 'FLOAT', 'datetime64[us]': 'DATETIME','datetime64': 'DATETIME'}))])}
     )
     """)
+
     
     # Insert data into target table
     for _, row in df.iterrows():

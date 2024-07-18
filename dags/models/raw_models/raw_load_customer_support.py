@@ -19,7 +19,7 @@ CREATE TABLE  IF NOT EXISTS customer_support (
     date VARCHAR(20),
     issue_type VARCHAR(50),
     resolution_status VARCHAR(50),
-        ingetion_timestamp VARCHAR(255)
+        ingetion_timestamp DATETIME
 );
         """
         cursor.execute(create_employees_table)

@@ -17,7 +17,7 @@ def create_tables(cursor):
     name VARCHAR(255),
     address VARCHAR(255),
     phone VARCHAR(255),
-        ingetion_timestamp VARCHAR(255)
+        ingetion_timestamp DATETIME
 );
         """
         cursor.execute(create_employees_table)

@@ -54,7 +54,7 @@ with DAG(
 
 
 
-    with TaskGroup('raw_load_accounts') as script_1_tasks:
+    with TaskGroup('raw_load_accounts') as script_1_tasks1:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_1_1,
@@ -75,7 +75,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_atms') as script_1_tasks:
+    with TaskGroup('raw_load_atms') as script_1_tasks2:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_2_1,
@@ -96,7 +96,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_bill_payments') as script_1_tasks:
+    with TaskGroup('raw_load_bill_payments') as script_1_tasks3:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_3_1,
@@ -117,7 +117,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_branches') as script_1_tasks:
+    with TaskGroup('raw_load_branches') as script_1_tasks4:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_4_1,
@@ -138,7 +138,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_cards') as script_1_tasks:
+    with TaskGroup('raw_load_cards') as script_1_tasks5:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_5_1,
@@ -159,7 +159,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_cheques') as script_1_tasks:
+    with TaskGroup('raw_load_cheques') as script_1_tasks6:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_6_1,
@@ -180,7 +180,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_credit_scores') as script_1_tasks:
+    with TaskGroup('raw_load_credit_scores') as script_1_tasks7:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_7_1,
@@ -201,7 +201,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_customer_support') as script_1_tasks:
+    with TaskGroup('raw_load_customer_support') as script_1_tasks8:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_8_1,
@@ -222,7 +222,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_customers') as script_1_tasks:
+    with TaskGroup('raw_load_customers') as script_1_tasks9:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_9_1,
@@ -243,7 +243,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_employees') as script_1_tasks:
+    with TaskGroup('raw_load_employees') as script_1_tasks10:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_10_1,
@@ -264,7 +264,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_fixed_deposits') as script_1_tasks:
+    with TaskGroup('raw_load_fixed_deposits') as script_1_tasks11:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_11_1,
@@ -285,7 +285,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_insurance') as script_1_tasks:
+    with TaskGroup('raw_load_insurance') as script_1_tasks12:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_12_1,
@@ -306,7 +306,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_investments') as script_1_tasks:
+    with TaskGroup('raw_load_investments') as script_1_tasks13:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_13_1,
@@ -327,7 +327,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_loans') as script_1_tasks:
+    with TaskGroup('raw_load_loans') as script_1_tasks14:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_14_1,
@@ -348,7 +348,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_mortgage_applications') as script_1_tasks:
+    with TaskGroup('raw_load_mortgage_applications') as script_1_tasks15:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_15_1,
@@ -369,7 +369,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_online_banking') as script_1_tasks:
+    with TaskGroup('raw_load_online_banking') as script_1_tasks16:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_16_1,
@@ -390,7 +390,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_recurring_deposits') as script_1_tasks:
+    with TaskGroup('raw_load_recurring_deposits') as script_1_tasks17:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_17_1,
@@ -411,7 +411,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_savings_goals') as script_1_tasks:
+    with TaskGroup('raw_load_savings_goals') as script_1_tasks18:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_18_1,
@@ -432,7 +432,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_service_charges') as script_1_tasks:
+    with TaskGroup('raw_load_service_charges') as script_1_tasks19:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_19_1,
@@ -453,7 +453,7 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
-    with TaskGroup('raw_load_transactions') as script_1_tasks:
+    with TaskGroup('raw_load_transactions') as script_1_tasks20:
         task1_subtask1 = PythonOperator(
             task_id='create_table',
             python_callable=subtask_20_1,
@@ -474,3 +474,5 @@ with DAG(
         
         # Set dependencies within TaskGroup
         task1_subtask1 >> task1_subtask2 >> task1_subtask3
+
+    script_1_tasks1   >>script_1_tasks2   >>script_1_tasks3   >>script_1_tasks4   >>script_1_tasks5   >>script_1_tasks6   >>script_1_tasks7   >>script_1_tasks8   >>script_1_tasks9   >>script_1_tasks10   >>script_1_tasks11   >>script_1_tasks12   >>script_1_tasks13   >>script_1_tasks14   >>script_1_tasks15   >>script_1_tasks16   >>script_1_tasks17   >>script_1_tasks18   >>script_1_tasks19   >>script_1_tasks20

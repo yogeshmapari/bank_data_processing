@@ -20,7 +20,7 @@ def create_tables(cursor):
     start_date VARCHAR(20),
     maturity_date VARCHAR(20),
     status VARCHAR(50),
-        ingetion_timestamp VARCHAR(255)
+        ingetion_timestamp DATETIME
 );
         """
         cursor.execute(create_employees_table)

@@ -20,7 +20,7 @@ def create_tables(cursor):
     interest_rate DECIMAL(5, 2),
     application_date VARCHAR(20),
     status VARCHAR(50),
-        ingetion_timestamp VARCHAR(255)
+        ingetion_timestamp DATETIME
 );
         """
         cursor.execute(create_employees_table)

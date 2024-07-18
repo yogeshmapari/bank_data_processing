@@ -20,7 +20,7 @@ def create_tables(cursor):
     current_amount VARCHAR(20),
     start_date VARCHAR(50),
     end_date VARCHAR(50),
-        ingetion_timestamp VARCHAR(255)
+        ingetion_timestamp DATETIME
 );
         """
         cursor.execute(create_employees_table)

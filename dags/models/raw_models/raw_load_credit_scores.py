@@ -16,7 +16,7 @@ def create_tables(cursor):
     customer_id VARCHAR(255),
     credit_score VARCHAR(20),
     score_date VARCHAR(20),
-        ingetion_timestamp VARCHAR(255)
+        ingetion_timestamp DATETIME
 );
         """
         cursor.execute(create_employees_table)

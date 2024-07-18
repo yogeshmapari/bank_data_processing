@@ -20,7 +20,7 @@ CREATE TABLE  IF NOT EXISTS customers (
     email VARCHAR(255),
     dob VARCHAR(20),
     join_date VARCHAR(20),
-        ingetion_timestamp VARCHAR(255)
+        ingetion_timestamp DATETIME
 );
         """
         cursor.execute(create_employees_table)

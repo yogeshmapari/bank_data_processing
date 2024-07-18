@@ -19,7 +19,7 @@ def create_tables(cursor):
     position VARCHAR(50),
     salary DECIMAL(10, 2),
     hire_date VARCHAR(20),
-        ingetion_timestamp VARCHAR(255)
+        ingetion_timestamp DATETIME
 );
         """
         cursor.execute(create_employees_table)

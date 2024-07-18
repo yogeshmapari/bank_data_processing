@@ -20,7 +20,7 @@ CREATE TABLE  IF NOT EXISTS cards (
     expiration_date VARCHAR(20),
     security_code VARCHAR(10),
     status VARCHAR(50),
-        ingetion_timestamp VARCHAR(255)
+        ingetion_timestamp DATETIME
 );
         """
         cursor.execute(create_employees_table)

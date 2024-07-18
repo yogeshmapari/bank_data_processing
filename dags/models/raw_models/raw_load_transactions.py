@@ -19,7 +19,7 @@ def create_tables(cursor):
     amount DECIMAL(15, 2),
     transaction_type VARCHAR(50),
     description TEXT,
-        ingetion_timestamp VARCHAR(255)
+        ingetion_timestamp DATETIME
 );
         """
         cursor.execute(create_employees_table)

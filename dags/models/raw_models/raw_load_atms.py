@@ -18,7 +18,7 @@ def create_tables(cursor):
     location VARCHAR(255),
     status VARCHAR(50),
     installation_date VARCHAR(20),
-        ingetion_timestamp VARCHAR(255)
+        ingetion_timestamp DATETIME
 );
         """
         cursor.execute(create_employees_table)
